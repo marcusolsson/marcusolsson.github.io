@@ -1,9 +1,10 @@
-{
-	"title": "Beginner-friendly issues",
-	"description": "One of the first pieces of advice that aspiring contributors get when looking to contribute to their first open source project is to search for beginner-friendly issues. But what does it mean for an issue to be truly beginner-friendly?",
-	"date": "2020-09-28",
-	"featured": true
-}
+---
+title: Beginner-friendly issues
+date: 2020-09-28
+icon: /images/avatar.png
+featured: true
+summary: One of the first pieces of advice that aspiring contributors get when looking to contribute to their first open source project is to search for “beginner-friendly issues”. Learn what makes a great beginner-friendly issue.
+---
 
 One of the first pieces of advice that aspiring contributors get when looking to contribute to their first open source project is to search for “beginner-friendly issues”. By marking these issues as beginner-friendly, they serve as entry points for anyone who wants to get involved with the project. You’ll see beginner-friendly issues labeled with tags like:
 

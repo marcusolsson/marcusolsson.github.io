@@ -1,10 +1,12 @@
 baseURL = "https://marcus.se.net"
 languageCode = "en-us"
 title = "Marcus Olsson"
-theme = "minimal"
+theme = "minimal-garden"
 
 [params]
-  description = "Marcus Olsson"
+  logo = "avatar.png"
+  subtitle = "Software Creative and Educator"
+  description = "Marcus Olsson is a Developer Advocate at Grafana Labs."
   author = "Marcus Olsson"
   twitter = "marcusolsson"
   github = "marcusolsson"

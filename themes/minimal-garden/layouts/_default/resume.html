@@ -1,0 +1,127 @@
+{{ define "main" }}
+<section class="content-block-odd">
+  <section class="hero-block">
+    <header class="page__header">
+      <h1>Marcus Olsson</h1>
+    </header>
+    {{ .Content }}
+    <ul>
+      {{ range $.Site.Data.resume.highlights }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </section>
+  <section class="text-block">
+    <!-- Experience -->
+    <section>
+      <header>
+        <h2>Experience</h2>
+      </header>
+      {{ range first 6 $.Site.Data.resume.positions }}
+      <section class="card mb-8">
+        <div class="card__body">
+          <header class="resume-position__header">
+            <div>
+              <p class="overline text--disabled m-0">{{ .employer }}</p>
+              <span class="card__title">{{ .title }}</span>
+            </div>
+            <div class="resume-position__period overline text--disabled">
+              <div>{{ .started }}</div>
+              <div>{{ .ended }}</div>
+            </div>
+          </header>
+          <p>{{ $.RenderString .description }}</p>
+          <ul>
+            {{ range .highlights }}
+            <li>{{ $.RenderString . }}</li>
+            {{ end }}
+          </ul>
+          {{ if .technologies }}
+          <section>
+            <header>
+              <span class="overline text--disabled">Technologies</span>
+            </header>
+            <p class="text-sm">{{ .technologies }}</p>
+          </section>
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+
+      <!-- Previous positions -->
+      <p class="text-center" id="toggle-previous-positions">
+        <button onclick="toggleResumePositions()" class="btn">
+          Show all positions
+        </button>
+      </p>
+      <div id="previous-positions" class="hidden">
+        {{ range after 6 $.Site.Data.resume.positions }}
+        <section class="card mb-8">
+          <div class="card__body">
+            <header class="resume-position__header">
+              <div>
+                <p class="overline text--disabled m-0">{{ .employer }}</p>
+                <span class="card__title">{{ .title }}</span>
+              </div>
+              <div class="resume-position__period overline text--disabled">
+                <div>{{ .started }}</div>
+                <div>{{ .ended }}</div>
+              </div>
+            </header>
+            <p>{{ $.RenderString .description }}</p>
+            <ul>
+              {{ range .highlights }}
+              <li>{{ $.RenderString . }}</li>
+              {{ end }}
+            </ul>
+            {{ if .technologies }}
+            <section>
+              <header>
+                <span class="overline text--disabled">Technologies</span>
+              </header>
+              <p class="text-sm">{{ .technologies }}</p>
+            </section>
+            {{ end }}
+          </div>
+        </section>
+        {{ end }}
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+      <header>
+        <h2>Education</h2>
+      </header>
+      {{ range $.Site.Data.resume.education }}
+      <section class="card mb-8">
+        <div class="card__body">
+          <header class="resume-position__header">
+            <div>
+              <p class="overline text--disabled m-0">{{ .location }}</p>
+              <span class="card__title">{{ .title }}</span>
+            </div>
+            <div class="resume-position__period overline text--disabled">
+              <div>{{ .started }}</div>
+              <div>{{ .ended }}</div>
+            </div>
+          </header>
+        </div>
+      </section>
+      {{ end }}
+    </section>
+
+    <!-- Training and Certifications -->
+    <section>
+      <header>
+        <h2>Training and Certifications</h2>
+      </header>
+      <ul>
+        {{ range $.Site.Data.resume.training }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    </section>
+  </section>
+</section>
+{{ end }}

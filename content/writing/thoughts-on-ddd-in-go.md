@@ -1,8 +1,10 @@
-{
-	"title": "Thoughts on DDD in Go",
-	"description": "When I set out to port the DDD sample application to Go, I had done a couple of minor projects in Go on my spare time. The experience I had got from those projects had been refreshing, to say the least. I felt like I was being more productive than I had ever been in other object-oriented programming languages. But then I got curious. ",
-	"date": "2014-10-10"
-}
+---
+title: Thoughts on DDD in Go
+icon: /images/avatar.png
+date: 2014-10-10
+---
+
+When I set out to port the DDD sample application to Go, I had done a couple of minor projects in Go on my spare time. The experience I had got from those projects had been refreshing, to say the least. I felt like I was being more productive than I had ever been in other object-oriented programming languages. But then I got curious.<!--more-->
 
 Given the simple yet expressive syntax of Go, it should allow me to really focus on expressing the business logic, the ubiquitous language of a domain. Inspired by Paul Rayner's work on porting the [DDD Sample App to Ruby](https://github.com/paulrayner/ddd_sample_app_ruby), I felt compelled to start working on my own port of the application, using the Go programming language.
 
@@ -16,6 +18,6 @@ When organizing the code according to the Clean Architecture, or Hexagonal Archi
 
 Cheney's answer resonated with the thoughts I had been having. Cargo is an idea but a MongoDB implementation of a cargo repository is not. One could argue that "infrastructure" is an idea, but I would say it is too vague, too general. But where else would I put it?
 
-By now, the progress on my port had grinded to a halt. So I decided I would ask Rinat Abdullin, who has been doing DDD with Go on his current project, a swedish dating site, about what thoughts they were having. His [answer](https://gist.github.com/abdullin/3e3fd199674255e4d206) was more comprehensive than I could have hoped for, and I highly recommend reading it. Basically, he and his team went for the decision to include the implementation details into the package and exposing the behaviour through a REST API, making each package _at the granularity of an idea_, with a clear focus on communicating using domain events. 
+By now, the progress on my port had grinded to a halt. So I decided I would ask Rinat Abdullin, who has been doing DDD with Go on his current project, a swedish dating site, about what thoughts they were having. His [answer](https://gist.github.com/abdullin/3e3fd199674255e4d206) was more comprehensive than I could have hoped for, and I highly recommend reading it. Basically, he and his team went for the decision to include the implementation details into the package and exposing the behaviour through a REST API, making each package _at the granularity of an idea_, with a clear focus on communicating using domain events.
 
 Indeed, their design is much different from the design of the original DDD sample application (as well as my port). When doing a port like this, I believe that it should not just be about changing syntax, but also adhering to the design principles of the programming language you are porting it to. As such, I am currently trying to decide on where to go from here. Either I accept that it was indeed a great learning experience and acknowledge that the original design just is not the Go way. Or, I start refactoring towards a completely new, more idiomatic, design. I would love to hear your thoughts!

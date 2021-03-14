@@ -1,0 +1,13 @@
+name = "creature"
+license = "MIT"
+licenselink = "https://github.com/marcusolsson/creature-design-system/LICENSE"
+description = ""
+homepage = "https://github.com/marcusolsson/creature-design-system"
+tags = []
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Marcus Olsson"
+  homepage = "https://marcus.se.net"
+

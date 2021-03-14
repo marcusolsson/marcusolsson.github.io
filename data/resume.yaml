@@ -1,31 +1,37 @@
-highlights:
-  - Designing, building and operating distributed applications and data
-    pipelines, using cloud technologies.
-  - Learning new technologies, practices, and concepts, distilling and teaching
-    them to others through talks, demos, and workshops.
-  - Experienced speaker and trainer on topics such as cloud technologies,
-    software architecture and development practices.
-
 positions:
   - title: Developer Advocate
-    employer: Grafana Labs, Stockholm
+    employer: Grafana Labs, Remote
     started: Aug 2019
     ended: Current
+    description: |
+      Joined as the first Developer Advocate at Grafana Labs with a focus on improving the experience for plugin developers. By supporting plugin developers and building plugins myself, I identified difficult topics, and put them in writing.
     highlights:
-      - Helping professionals become better at monitoring their applications and infrastructure.
-      - Educating them through public speaking, tutorials, blog posts, and supporting them when things are hard.
+      - Wrote guides and tutorials for plugin development.
+      - Answered questions from plugin developers on Discourse and Slack.
+      - Hosted office hours for plugin development.
+      - Reviewed and published plugins built by the community.
     technologies: Grafana, Go, Typescript, ReactJS
+
+  - title: Technical Writer
+    employer: Dynalist Inc. (Contractor), Remote
+    started: Oct 2021
+    ended: Current
+    description: As a result of my work on creating the unofficial [Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-documentation), the Obsidian team reached out to me to ask whether I'd be interested in helping them improve the official product documentation, [Obsidian Help](https://help.obsidian.md). My initial focus was the onboarding experience when getting started with Obsidian and their services, but has since then been editing existing documentation pages.
+    highlights:
+      - Wrote Getting started guides for their paid services, Obsidian Publish and Sync.
+      - Designed and wrote a series of pages that introduce users to Obsidian.
+      - Consolidated and organized existing documentation.
+    technologies: Obsidian, Markdown
 
   - title: Data Infrastructure Engineer (consultant)
     employer: Epidemic Sound, Stockholm
     started: Mar 2019
     ended: Jun 2019
+    description: Helped Epidemic Sound set up a data platform based on Google Cloud Platform to reliably provide data to the rest of the organization. Our team was responsible for ingesting data from the other engineering teams and making it available to the Analytics teams.
     highlights:
-      - Establishing a team working with data infrastructure on the Google Cloud
-        Platform, to reliably provide data to the rest of the organization.
-      - Designing and building a pipeline to reliably ingest YouTube API resources
+      - Designed and built a pipeline to reliably ingest YouTube API resources
         into BigQuery.
-      - Supporting and training teams in understanding and consuming the data we
+      - Supported and trained teams in understanding and consuming the data we
         provided.
     technologies: Google Cloud Platform (BigQuery, App Engine, Pub/Sub, Dataflow, DataStudio), YouTube API, Python, Go
 
@@ -33,25 +39,12 @@ positions:
     employer: Lendo, Stockholm
     started: Jun 2018
     ended: Mar 2019
+    description: Developed an in-house cloud platform based on Kubernetes and Openstack to support the expansion to new markets without having to scale the operations team. Introduced infrastructure-as-code and a continuous delivery pipeline in a team that was relying on manual configuration for releases.
     highlights:
-      - Built a in-house cloud platform based on Kubernetes and Openstack to
-        support the expansion to new markets without having to scale the
-        operations team.
-      - Introduced the use of Infrastructure-as-Code to reliably manage
-        environments for new markets and automate the delivery pipeline to
-        reliably deploy new changes to production.
-      - Supported the organization in building a team focused on operating the
-        cloud platform to improve system reliability.
+      - Converted local scripts to Terraform configurations to reliably provision new Kubernetes clusters and environments.
+      - Introduced Weaveworks Flux to reliably manage environments for new markets and automate the delivery pipeline to reliably deploy new changes to production.
+      - Supported the organization in building a team focused on operating the cloud platform to improve system reliability.
     technologies: Terraform, Ansible, Kubernetes (kubespray), Helm, Weaveworks Flux, Consul, Docker, OpenStack, Grafana, Go
-
-  - title: Google Developer Expert
-    employer: Google
-    started: Oct 2018
-    ended: Current
-    highlights:
-      - Contributing and supporting the developer and startup ecosystems
-        through talks and training on cloud technologies such as Go and the
-        Google Cloud Platform.
 
   - title: Software Development Consultant
     employer: Citerus, Stockholm
@@ -68,14 +61,19 @@ positions:
     employer: Bonnier Broadcasting, Stockholm
     started: Nov 2016
     ended: Jun 2018
+    description: Developed and operated a data warehouse for streaming video to consolidate the data used throughout the company. Our team ingested batch and streaming data from engineering teams and external vendors and made it available to the rest of the organization.
     highlights:
-      - Developed and operated a data warehouse for streaming video to
-        consolidate the data used throughout the company.
-      - Built and operated a streaming pipeline for user activity events, on
-        Kubernetes.
-      - Advocated the use of data within the organization, through demos and
-        training sessions.
+      - Built and operated a streaming pipeline for user activity events, on Kubernetes.
+      - Advocated the use of data within the organization, through demos and training sessions.
+      - Designed and built data pipelines to support GDPR.
     technologies: Go, Kubernetes, Helm, Docker, Python, Apache Airflow, Google Cloud Platform, Prometheus/Grafana, Travis CI
+
+  - title: Google Developer Expert
+    employer: Google
+    started: Oct 2018
+    ended: Mar 2021
+    highlights:
+      - Contributed and supported the developer and startup ecosystems through talks and training on cloud technologies such as Go and the Google Cloud Platform.
 
   - title: Site Reliability Engineer
     employer: Klarna, Stockholm
@@ -177,6 +175,7 @@ education:
     ended: 2010
 
 training:
+  - Tech Writers Master Class, Udemy 2021
   - AIESEC Speaker Training, Bratislava 2019
   - Distributed Computing Workshop, GopherCon Denver, 2017
   - Google Cloud Platform Big Data and Machine Learning Fundamentals, Coursera, 2017

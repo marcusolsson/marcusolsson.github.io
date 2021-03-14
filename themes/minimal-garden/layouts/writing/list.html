@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="content-block-odd">
+  <section class="hero-block">
+    <h1>Writing</h1>
+    <p>
+      I write to make sense of the world, both for myself and for others to
+      learn from my experiences. In these posts, I share insights from what I've
+      learned so far.
+    </p>
+  </section>
+</section>
+
+<section class="content-block-even">
+  <section class="grid-block">
+    <div class="grid grid-cols-3 gap-8">
+      {{ range where .Site.RegularPages "Section" "writing" }}
+      <article class="card">
+        <div class="card__body">
+          <header>
+            <div
+              class="overline"
+              style="
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                margin-bottom: 0.4rem;
+              "
+            >
+              <img style="height: 1em" src="{{ .Params.icon }}" /> {{
+              .Params.publisher | default "marcus.se.net" }}
+            </div>
+            <h3 style="margin-top: 0">
+              <a href="{{ .Params.external_url | default .Permalink }}"
+                >{{ .Title }}</a
+              >
+            </h3>
+          </header>
+          <p style="font-size: 18px">{{ .Summary }}</p>
+        </div>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+</section>
+{{ end }}

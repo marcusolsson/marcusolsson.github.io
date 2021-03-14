@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="page">
+  <header class="page__header">
+    <h1>Writing</h1>
+  </header>
+
+  {{ range where .Site.RegularPages "Section" "writing" }}
+  <article class="card mb-8">
+    <div class="card__body">
+      <header class="text-center">
+        <time datetime="{{ .PublishDate.Format "2006-01-02" }}" class="text-sm text--disabled mb-4">{{ .PublishDate.Format "Jan 2, 2006" }}</time>
+        <h2>
+          <a href="{{ .Params.external_url | default .Permalink }}">{{ .Title }}</a>
+        </h2>
+      </header>
+      <p>
+        {{ .Summary }}
+      </p>
+    </div>
+  </article>
+  {{ end }}
+</section>
+{{ end }}

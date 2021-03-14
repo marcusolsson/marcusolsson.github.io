@@ -1,0 +1,89 @@
+{{ define "main" }}
+<section class="content-block-odd">
+  <section class="hero-block">
+    <h1>Hi, I'm Marcus 👋</h1>
+    <p>
+      I work as a Developer Advocate at
+      <a href="https://grafana.com">Grafana Labs</a>, where I help community
+      members extend Grafana with plugins.
+    </p>
+  </section>
+</section>
+<section class="content-block-even">
+  <section class="grid-block">
+    <h2 class="text-center">Recommended articles</h2>
+    <div class="grid grid-cols-4 gap-8">
+      {{ range where .Site.RegularPages "Section" "writing" }} {{ if
+      .Params.featured }}
+      <article class="card">
+        <div class="card__body">
+          <header>
+            <div
+              class="overline"
+              style="
+                display: flex;
+                align-items: center;
+                gap: 4px;
+                margin-bottom: 0.4rem;
+              "
+            >
+              <img style="height: 1em" src="{{ .Params.icon }}" /> {{
+              .Params.publisher | default "marcus.se.net" }}
+            </div>
+            <h3 style="margin-top: 0">
+              <a href="{{ .Params.external_url | default .Permalink }}"
+                >{{ .Title }}</a
+              >
+            </h3>
+          </header>
+          <p style="font-size: 18px">{{ .Summary }}</p>
+        </div>
+      </article>
+      {{ end }} {{ end }}
+    </div>
+    <div class="mt-8 text-center">
+      <a href="/writing">See more articles</a>
+    </div>
+  </section>
+</section>
+<section class="content-block-odd">
+  <section class="grid-block">
+    <h2 class="text-center">Check out some of the stuff I've built</h2>
+    <div class="grid grid-cols-4 gap-8">
+      {{ range $.Site.Data.projects.plugins }} {{ if .featured }}
+      <div class="card">
+        <div class="card__body">
+          <div class="flex items-center mb-8">
+            <img
+              src="{{ .logo }}"
+              width="16"
+              height="16"
+              alt="The logo for {{ .name }}."
+            />
+            <span class="card__title ml-4">
+              <a href="{{ .url }}">{{ .name }}</a>
+            </span>
+          </div>
+          <p>{{ $.RenderString .description }}</p>
+        </div>
+      </div>
+      {{ end }} {{ end }} {{ range $.Site.Data.projects.obsidian }} {{ if
+      .featured }}
+      <div class="card">
+        <div class="card__body">
+          <div class="flex items-center mb-8">
+            <span class="card__title">
+              <a href="{{ .url }}">{{ .name }}</a>
+            </span>
+          </div>
+          <p>{{ $.RenderString .description }}</p>
+        </div>
+      </div>
+      {{ end }} {{ end }}
+    </div>
+    <div class="text-center mt-8">
+      <a href="/projects">See more projects</a>
+    </div>
+  </section>
+</section>
+{{ end }}

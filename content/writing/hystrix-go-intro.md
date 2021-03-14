@@ -1,8 +1,9 @@
-{
-	"title": "Circuit breaking using hystrix-go",
-	"description": "So we have been looking at adding circuit breaking to our services at my current client as part of making them more resilient. We used the fantastic hystrix-go package and since I could not really find any other examples other than the ones in the tests, I thought I might share one.",
-	"date": "2015-05-09"
-}
+---
+title: Circuit breaking using hystrix-go
+date: 2015-05-09
+icon: /images/avatar.png
+summary: "So we have been looking at adding circuit breaking to our services at my current client as part of making them more resilient. We used the fantastic hystrix-go package and since I could not really find any other examples other than the ones in the tests, I thought I might share one."
+---
 
 For those of you who are not familiar with circuit breaking, imagine that you are developing a service which in turn makes requests to an external service. Regardless of whether that service is within your control or not, you need to consider what would happen when it becomes unavailable, because it most definitely will.
 

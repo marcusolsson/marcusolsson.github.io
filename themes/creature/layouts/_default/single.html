@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="page">
+  <header class="page__header">
+    {{- if not .PublishDate.IsZero -}}
+    <time datetime="{{ .PublishDate.Format "2006-01-02" }}" class="publication-date">{{ .PublishDate.Format "Jan 2, 2006" }}</time>
+    {{- end -}}
+    <h1>{{ .Title }}</h1>
+  </header>
+  <section>
+    {{ .Content }}
+  </section>
+  {{ if and (isset .Params "publisher") (isset .Params "external_url") }}<strong>Read the entire article at <a href="{{ .Params.external_url }}">{{ .Params.publisher }}</a>.</strong>{{ end }}
+</article>
+{{ end }}

@@ -1,0 +1,12 @@
+<header class="header">
+  <div class="brand">
+    <a class="brand__title" href="/">{{ .Site.Title }}</a>
+  </div>
+  <nav class="main-nav" aria-label="Main">
+    <ul>
+      <li><a class="main-nav__link" href="/writing" {{ if eq .RelPermalink "/writing/" }}aria-current="page"{{ end }}>Writing</a></li>
+      <li><a class="main-nav__link" href="/speaking" {{ if eq .RelPermalink "/speaking/" }}aria-current="page"{{ end }}>Speaking</a></li>
+      <li><a class="main-nav__link" href="/projects" {{ if eq .RelPermalink "/projects/" }}aria-current="page"{{ end }}>Projects</a></li>
+    </ul>
+  </nav>
+</header>

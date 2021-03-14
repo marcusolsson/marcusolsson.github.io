@@ -1,43 +1,78 @@
+obsidian:
+  - name: Obsidian Vale
+    description: A [Vale](https://github.com/errata-ai/vale) plugin for Obsidian.
+    url: https://github.com/marcusolsson/obsidian-vale
+    featured: true
+  - name: Obsidian Pipe tricks
+    description: An Obsidian plugin that adds [pipe tricks](https://en.wikipedia.org/wiki/Help:Pipe_trick) to the Wikilink format used by Obsidian.
+    url: https://github.com/marcusolsson/obsidian-pipe-tricks
+  - name: Creature
+    description: A minimal, dark-only theme for Obsidian.
+    url: https://github.com/marcusolsson/obsidian-creature-theme
+  - name: Guide for plugin development
+    description: A documentation site to help people get started with building plugins for Obsidian.
+    url: https://marcus.se.net/obsidian-plugin-docs
+    featured: true
 plugins:
-  - name: Calendar
-    description: Display your query results as calendar events.
-    logo: https://raw.githubusercontent.com/marcusolsson/grafana-calendar-panel/main/src/img/logo.svg
-    url: https://github.com/marcusolsson/grafana-calendar-panel
+  - name: JSON API
+    description: Extract data from your JSON API using JSON Paths.
+    logo: /images/json-plugin-logo.svg
+    url: https://github.com/marcusolsson/grafana-json-datasource
+    featured: true
+    docs: https://marcus.se.net/grafana-json-datasource
   - name: CSV
     description: Load CSV files into Grafana.
-    logo: https://raw.githubusercontent.com/marcusolsson/grafana-csv-datasource/main/src/img/logo.svg
+    logo: /images/csv-plugin-logo.svg
     url: https://github.com/marcusolsson/grafana-csv-datasource
+    docs: https://marcus.se.net/grafana-csv-datasource
+    featured: true
   - name: Dynamic text
     description: Define text templates using the data from your data source query.
-    logo: https://raw.githubusercontent.com/marcusolsson/grafana-dynamictext-panel/main/src/img/logo.svg
+    logo: /images/dynamictext-plugin-logo.svg
     url: https://github.com/marcusolsson/grafana-dynamictext-panel
-    featured: true
+    docs: https://marcus.se.net/grafana-dynamictext-panel
+  - name: Calendar
+    description: Display your query results as calendar events.
+    logo: /images/calendar-plugin-logo.svg
+    url: https://github.com/marcusolsson/grafana-calendar-panel
   - name: Gantt
     description: Display tasks over time in a Gantt chart.
-    logo: https://raw.githubusercontent.com/marcusolsson/grafana-gantt-panel/main/src/img/logo.svg
+    logo: /images/gantt-plugin-logo.svg
     url: https://github.com/marcusolsson/grafana-gantt-panel
   - name: Hexmap
     description: Display data as hexagonal tiles.
-    logo: https://raw.githubusercontent.com/marcusolsson/grafana-hexmap-panel/main/src/img/logo.svg
+    logo: /images/hexmap-plugin-logo.svg
     url: https://github.com/marcusolsson/grafana-hexmap-panel
   - name: Hourly heatmap
     description: Aggregate time series by hour to analyze activity or traffic during the day.
-    logo: https://raw.githubusercontent.com/marcusolsson/grafana-hourly-heatmap-panel/main/src/img/logo.svg
+    logo: /images/hourlyheatmap-plugin-logo.svg
     url: https://github.com/marcusolsson/grafana-hourly-heatmap-panel
-  - name: JSON API
-    description: Extract data from your JSON API using JSON Paths.
-    logo: https://raw.githubusercontent.com/marcusolsson/grafana-json-datasource/main/src/img/logo.svg
-    url: https://github.com/marcusolsson/grafana-json-datasource
-    featured: true
   - name: Static
     description: Create static query results for prototyping dashboards and testing panels.
-    logo: https://raw.githubusercontent.com/marcusolsson/grafana-static-datasource/main/src/img/logo.svg
+    logo: /images/static-plugin-logo.svg
     url: https://github.com/marcusolsson/grafana-static-datasource
   - name: Treemap
     description: Compare data by area and colors.
-    logo: https://raw.githubusercontent.com/marcusolsson/grafana-treemap-panel/main/src/img/logo.svg
+    logo: /images/treemap-plugin-logo.svg
     url: https://github.com/marcusolsson/grafana-treemap-panel
+  - name: Grafana for YNAB
+    description: Visualize your personal finances in Grafana.
+    logo: /images/ynab-plugin-logo.svg
+    url: https://github.com/marcusolsson/grafana-ynab-datasource
+    docs: https://marcus.se.net/grafana-ynab-datasource
 concepts:
+  - name: json-schema-docs
+    url: https://github.com/marcusolsson/json-schema-docs
+    description: |
+      A command-line tool written in Go that generates Markdown from a [JSON Schema](https://json-schema.org/).
+  - name: dts-docs
+    url: https://github.com/marcusolsson/dts-docs
+    description: |
+      A command-line tool written in TypeScript that generates Markdown from a TypeScript declarations file (.d.ts). I built this to generate the [API reference docs for the Obsidian Plugin Development Docs](https://marcus.se.net/obsidian-plugin-docs/api).
+  - name: grafana-plugin-support
+    url: https://github.com/marcusolsson/grafana-plugin-support
+    description: |
+      As I discover patterns and shared components across my Grafana plugins, I extract them into this helper library.
   - name: goddd
     url: https://github.com/marcusolsson/goddd
     description: |
@@ -46,26 +81,29 @@ concepts:
       Featured at [GolangUK 2016](https://www.youtube.com/watch?v=twcDf_Y2gXY) and on [GopherAcademy](https://blog.gopheracademy.com/advent-2016/go-and-package-focused-design/). Also one of the examples for the [go-kit](https://github.com/go-kit/kit) project.
   - name: tui-go
     url: https://github.com/marcusolsson/tui-go
-    description: A UI library that provides a higher-level programming model for building rich terminal applications.
+    description: A Go library that provides a higher-level programming model for building rich terminal applications.
   - name: Edith
     url: https://github.com/marcusolsson/edith
     description: An open learning platform based on Gatsby and Material UI.
+  - name: Enough
+    url: https://github.com/marcusolsson/vscode-theme-enough
+    description: |
+      I find overly colorful color schemes distracting, so I made VS Code theme with just enough syntax highlighting.
+
+      Not for everyone, and that's ok.
 artwork:
-  - name: Orange dinosaur
-    cover: /images/orange-dinosaur.png
-    url: https://github.com/marcusolsson/gophers
   - name: Viking gopher
-    cover: /images/viking.png
+    cover: viking.svg
     url: https://github.com/marcusolsson/gophers
   - name: Midsummer gopher
-    cover: /images/midsummer-gopher.png
+    cover: midsummer.svg
     url: https://github.com/marcusolsson/gophers
   - name: Orbiter
-    cover: /images/logo-round.png
+    cover: orbiter.svg
     url: https://github.com/gianarb/orbiter
   - name: GopherData
-    cover: /images/gopherdata.png
+    cover: gopherdata.svg
     url: http://gopherdata.io
   - name: Gophercises
-    cover: /images/gophercises.png
+    cover: gophercises.svg
     url: http://gophercises.com
