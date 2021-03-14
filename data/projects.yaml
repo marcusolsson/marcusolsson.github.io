@@ -1,0 +1,71 @@
+plugins:
+  - name: Calendar
+    description: Display your query results as calendar events.
+    logo: https://raw.githubusercontent.com/marcusolsson/grafana-calendar-panel/main/src/img/logo.svg
+    url: https://github.com/marcusolsson/grafana-calendar-panel
+  - name: CSV
+    description: Load CSV files into Grafana.
+    logo: https://raw.githubusercontent.com/marcusolsson/grafana-csv-datasource/main/src/img/logo.svg
+    url: https://github.com/marcusolsson/grafana-csv-datasource
+  - name: Dynamic text
+    description: Define text templates using the data from your data source query.
+    logo: https://raw.githubusercontent.com/marcusolsson/grafana-dynamictext-panel/main/src/img/logo.svg
+    url: https://github.com/marcusolsson/grafana-dynamictext-panel
+    featured: true
+  - name: Gantt
+    description: Display tasks over time in a Gantt chart.
+    logo: https://raw.githubusercontent.com/marcusolsson/grafana-gantt-panel/main/src/img/logo.svg
+    url: https://github.com/marcusolsson/grafana-gantt-panel
+  - name: Hexmap
+    description: Display data as hexagonal tiles.
+    logo: https://raw.githubusercontent.com/marcusolsson/grafana-hexmap-panel/main/src/img/logo.svg
+    url: https://github.com/marcusolsson/grafana-hexmap-panel
+  - name: Hourly heatmap
+    description: Aggregate time series by hour to analyze activity or traffic during the day.
+    logo: https://raw.githubusercontent.com/marcusolsson/grafana-hourly-heatmap-panel/main/src/img/logo.svg
+    url: https://github.com/marcusolsson/grafana-hourly-heatmap-panel
+  - name: JSON API
+    description: Extract data from your JSON API using JSON Paths.
+    logo: https://raw.githubusercontent.com/marcusolsson/grafana-json-datasource/main/src/img/logo.svg
+    url: https://github.com/marcusolsson/grafana-json-datasource
+    featured: true
+  - name: Static
+    description: Create static query results for prototyping dashboards and testing panels.
+    logo: https://raw.githubusercontent.com/marcusolsson/grafana-static-datasource/main/src/img/logo.svg
+    url: https://github.com/marcusolsson/grafana-static-datasource
+  - name: Treemap
+    description: Compare data by area and colors.
+    logo: https://raw.githubusercontent.com/marcusolsson/grafana-treemap-panel/main/src/img/logo.svg
+    url: https://github.com/marcusolsson/grafana-treemap-panel
+concepts:
+  - name: goddd
+    url: https://github.com/marcusolsson/goddd
+    description: |
+      A sample application that explores tactical design patterns from Domain-Driven Design in Go.
+
+      Featured at [GolangUK 2016](https://www.youtube.com/watch?v=twcDf_Y2gXY) and on [GopherAcademy](https://blog.gopheracademy.com/advent-2016/go-and-package-focused-design/). Also one of the examples for the [go-kit](https://github.com/go-kit/kit) project.
+  - name: tui-go
+    url: https://github.com/marcusolsson/tui-go
+    description: A UI library that provides a higher-level programming model for building rich terminal applications.
+  - name: Edith
+    url: https://github.com/marcusolsson/edith
+    description: An open learning platform based on Gatsby and Material UI.
+artwork:
+  - name: Orange dinosaur
+    cover: /images/orange-dinosaur.png
+    url: https://github.com/marcusolsson/gophers
+  - name: Viking gopher
+    cover: /images/viking.png
+    url: https://github.com/marcusolsson/gophers
+  - name: Midsummer gopher
+    cover: /images/midsummer-gopher.png
+    url: https://github.com/marcusolsson/gophers
+  - name: Orbiter
+    cover: /images/logo-round.png
+    url: https://github.com/gianarb/orbiter
+  - name: GopherData
+    cover: /images/gopherdata.png
+    url: http://gopherdata.io
+  - name: Gophercises
+    cover: /images/gophercises.png
+    url: http://gophercises.com

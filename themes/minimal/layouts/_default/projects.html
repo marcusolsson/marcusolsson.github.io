@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<h1 class="page-header">Projects</h1>
+
+<!-- Plugins for Grafana -->
+<section class="hero">
+  <h2>Plugins for Grafana</h2>
+  <p><a href="https://grafana.com">Grafana</a> is an open source platform for monitoring and observability that can be extended using plugins. Plugins are written in <a href="https://www.typescriptlang.org/">TypeScript</a> and <a href="https://golang.org">Go</a>.</p>
+  <p>I aim to build plugins that are <strong>simple</strong>, <strong>functional</strong>, and <strong>user-friendly</strong>. They're intended to serve as examples of good practices for Grafana plugin development.</p>
+</section>
+<section>
+  <div class="project-group">
+    {{ range $.Site.Data.projects.plugins }}
+    <div class="card">
+      <div class="card-content--small">
+        <div class="horizontal" style="margin-bottom: 8px;">
+          <img src="{{ .logo }}" width="24px" height="24px" />
+          <span class="card-title" style="margin: 0; margin-left: 8px;">
+            <a href="{{ .url }}">{{ .name }}</a>
+          </span>
+        </div>
+        <div>{{ .description }}</div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+
+<!-- Concepts -->
+<section class="hero">
+  <h2>Concepts</h2>
+  <p>These projects are the culminations of various shower thoughts and ideas that deserved to be realized.</p>
+</section>
+<section class="project-group">
+  {{ range $.Site.Data.projects.concepts }}
+  <div class="card">
+    <div class="card-content--small">
+      <span class="card-title">
+        <a href="{{ .url }}">{{ .name }}</a>
+      </span>
+      <div>{{ $.RenderString .description }}</div>
+    </div>
+  </div>
+  {{ end }}
+</section>
+
+<!-- Artwork -->
+<section class="hero">
+  <h2>Artwork</h2>
+  <p>Every now and then I create vector illustration for various open source projects, mostly <a href="https://blog.golang.org/gopher">gophers</a>. You can find more of my artwork on <a href="https://github.com/marcusolsson/gophers">GitHub</a>.</p>
+</section>
+<section class="project-group">
+  {{ range $.Site.Data.projects.artwork }}
+  <div class="card">
+    <div class="card-media">
+      <img src="{{ .cover }}" />
+    </div>
+    <div class="card-content--small">
+      <span class="card-title">
+        <a href="{{ .url }}">{{ .name }}</a>
+      </span>
+    </div>
+  </div>
+  {{ end }}
+</section>
+{{ end }}

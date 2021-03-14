@@ -1,0 +1,18 @@
+baseURL = "https://marcus.se.net"
+languageCode = "en-us"
+title = "Marcus Olsson"
+theme = "minimal"
+
+[params]
+  description = "Marcus Olsson"
+  author = "Marcus Olsson"
+  twitter = "marcusolsson"
+  github = "marcusolsson"
+	linkedin = "marcusolsson1"
+
+[permalinks]
+	writing = ":filename"
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
