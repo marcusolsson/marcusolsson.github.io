@@ -1,0 +1,239 @@
+<!doctype html><html lang=en-us>
+<head>
+<title>How I set and track goals using Obsidian | Marcus Olsson</title>
+<link rel=stylesheet href=/scss/main.ca63bc15d74330f3af922e5a6ffd0e4ec8f613aa41ea180ce58d578ee67dcb822de5ffb86eece2bb1bedf7dba394c1f4404549b243dca41f070bd5fb5edcef56.css integrity="sha512-ymO8FddDMPOvki5ab/0OTsj2E6pB6hgM5Y1XjuZ9y4It5f+4buziuxvt99ujlMH0QEVJskPcpB8HC9X7XtzvVg==">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=author content="Marcus Olsson">
+<meta name=description content="For as long as I can remember, I&rsquo;ve been setting and documenting goals for myself. Usually though, I&rsquo;d eventually lose them to Google Drive or some trendy productivity app. In this article, I&rsquo;ll walk you through how I plan and track my professional and personal goals in Obsidian.">
+<meta name=twitter:card content="summary">
+<meta name=og:type content="article">
+<meta name=og:title content="How I set and track goals using Obsidian | Marcus Olsson">
+<meta name=og:description content="For as long as I can remember, I&rsquo;ve been setting and documenting goals for myself. Usually though, I&rsquo;d eventually lose them to Google Drive or some trendy productivity app. In this article, I&rsquo;ll walk you through how I plan and track my professional and personal goals in Obsidian.">
+<meta name=og:url content="https://marcus.se.net/how-i-set-and-track-goals-in-obsidian/">
+<meta name=og:image content="https://marcus.se.net/images/avatar_hu79b10322fccaa7c63e12808baa2d9ea4_209492_512x512_resize_box_3.png">
+<link rel=icon sizes=32x32 type=image/png href=/images/avatar_hu79b10322fccaa7c63e12808baa2d9ea4_209492_32x32_resize_box_3.png>
+<link rel=apple-touch-icon sizes=180x180 type=image/png href=/images/avatar_hu79b10322fccaa7c63e12808baa2d9ea4_209492_180x180_resize_box_3.png>
+<link rel=“canonical” href=https://marcus.se.net/how-i-set-and-track-goals-in-obsidian/>
+<link rel=prefetch href=/>
+<link rel=prefetch href=/writing/>
+<link rel=prefetch href=/speaking/>
+<link rel=prefetch href=/projects/>
+</head>
+<body>
+<a class=skip-link href=#main>Skip to content</a><header class=header>
+<div class=brand>
+<div class=brand__title>Marcus Olsson</div>
+<div class=brand__subtitle>Software Creative and Educator</div>
+</div>
+<nav class=nav>
+<a class=nav__link href=/>Home</a>
+<a class=nav__link href=/writing>Writing</a>
+<a class=nav__link href=/speaking>Speaking</a>
+<a class=nav__link href=/projects>Projects</a>
+</nav>
+</header>
+<div class=container>
+<main id=main>
+<article class=page>
+<header class=page__header><time datetime=2021-12-29 class=publication-date>Dec 29, 2021</time><h1>How I set and track goals using Obsidian</h1>
+</header>
+<section>
+<p>For as long as I can remember, I&rsquo;ve been setting and documenting goals for myself. Usually though, I&rsquo;d eventually lose them to Google Drive or some trendy productivity app. Some were paid. Most had some obscure proprietary format. Once it was time to plan the next quarter, either I&rsquo;d forgotten how to use the app, or my subscription had expired. My high-level goals would inevitably become disconnected from my low-level tasks, since they relied on me constantly having to configure and sync between all the apps and formats.</p>
+<p>While I started using <a href=https://obsidian.md>Obsidian</a> as a simple note-taking application it has now become an essential part of how I write, think, and learn. There are three main reasons why I think Obsidian is a great tool for setting and tracking goals:</p>
+<ul>
+<li>
+<p>All your data is stored in Markdown documents—pure text files. You&rsquo;d be able to use them even if you decided to move on from using Obsidian.</p>
+</li>
+<li>
+<p>You can build automated workflows for the more tedious tasks, through many of the community-built plug-ins for Obsidian.</p>
+</li>
+<li>
+<p>I&rsquo;m already using Obsidian on a daily basis for all my writing and note-taking. My goals are only a keyboard shortcut away.</p>
+</li>
+</ul>
+<p>In this article, I&rsquo;ll walk you through how I plan and track my professional and personal goals in Obsidian.</p>
+<h2 id=okrobjectives-and-key-results>OKR—Objectives and Key Results</h2>
+<p>I&rsquo;ve been using the popular <a href=https://en.wikipedia.org/wiki/OKR>OKR</a> goal-setting framework for a while, even before I switched to Obsidian. Since I&rsquo;m already using it in at work, I decided I would use it as a base for my goal-setting workflow.</p>
+<p>In short, OKR stands for <em>Objectives</em> and <em>Key Results</em>.</p>
+<ul>
+<li><strong>Objectives</strong> are statements of what you want to accomplish. They should be simple, clear, and make you excited.</li>
+<li><strong>Key Results</strong> are metrics that tells you whether you&rsquo;ve accomplished your Objective.</li>
+</ul>
+<p>For example, a good OKR, as suggested by <a href=https://twitter.com/johndoerr>John Doerr</a> would have the following structure:</p>
+<blockquote>
+<p><em>I will <strong>{objective}</strong> as measured by <strong>{key results}</strong>.</em></p>
+</blockquote>
+<p>I won&rsquo;t dive much deeper into OKRs, and how to use them. Feel free to consult your favorite search engine if you want to learn more.</p>
+<p>While the workflow is heavily inspired by the OKR methodology, you can easily adapt it for other goal-setting methodologies.</p>
+<h2 id=workflow>Workflow</h2>
+<p>I plan and track my goals over three time periods: quarterly, weekly, and daily. I then break down and define goals for each of those time periods:</p>
+<ul>
+<li>Quarterly goals -> OKR</li>
+<li>Weekly goals -> Initiatives</li>
+<li>Daily goals -> Tasks</li>
+</ul>
+<p>I use the <a href=https://github.com/liamcain/obsidian-periodic-notes>Periodic Notes</a> and <a href=https://github.com/liamcain/obsidian-calendar-plugin>Calendar</a> plugins to create notes from templates for each time period. Each periodic note <a href=https://help.obsidian.md/How+to/Embed+files#Embed+notes>embeds</a> the higher level goals: The weekly note embeds the OKRs for the current quarter, and the daily note embeds the initiatives for the current week. This way I can trace my goals at every step of the way.</p>
+<p>While not required, I also use the <a href=https://github.com/chhoumann/quickadd>QuickAdd</a> plugin to create OKRs more conveniently.</p>
+<p>Let&rsquo;s look at each part of the workflow from top to bottom!</p>
+<h3 id=the-okr-index>The OKR index</h3>
+<p>The OKR index note is where I outline my goals for the coming quarter.</p>
+<p>Each quarter is a second-level heading, which is broken down into three <em>life categories</em>: Personal, Relationships, and Professional. I&rsquo;ll come back to why I&rsquo;ve chosen to group my goals this way.</p>
+<p>For now, here&rsquo;s an example of what my index note would look like:</p>
+<p><strong>OKRs.md</strong></p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-md data-lang=md><span style=font-weight:700># OKRs
+</span><span style=font-weight:700></span>
+<span style=font-weight:700>## 2021 Q4
+</span><span style=font-weight:700></span>
+**Start:** 2021-11-01
+**End:** 2022-01-31
+
+<span style=font-weight:700>### Personal
+</span><span style=font-weight:700></span>
+<span style=color:#ff79c6>-</span> [[2021-Q4 Improve my cooking skills]]
+
+<span style=font-weight:700>### Relationships
+</span><span style=font-weight:700></span>
+<span style=color:#ff79c6>-</span> [[2021-Q4 Hang out with friends]]
+
+<span style=font-weight:700>### Professional
+</span><span style=font-weight:700></span>
+<span style=color:#ff79c6>-</span> [[2021-Q4 Become a better writer]]
+
+<span style=font-weight:700>## 2021 Q3
+</span><span style=font-weight:700></span>
+...
+</code></pre></div><h3 id=every-quarter>Every quarter</h3>
+<p>When a new quarter is about to start, I [[#Set up a QuickAdd choice for OKRs|create a new OKR from a template]], and start drafting the key results. Finally, I add a link to the objective from the index note under the appropriate category.</p>
+<p>The OKR note serves as a definition of my goal and how I will know I&rsquo;ve accomplished it. If you&rsquo;re not a fan of the OKR structure, feel free to define your goal in any way that makes sense to you.</p>
+<p>While it&rsquo;s not really necessary for this workflow, I like to connect each objective to one or more of my <em>core values</em>. I&rsquo;ve found that it helps me build up excitement for the objective if I know what core values I satisfy by accomplishing it.</p>
+<p><strong>Templates/OKR.md</strong></p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-md data-lang=md>---
+tags: [okr]
+---
+
+<span style=font-weight:700># {{NAME}}
+</span><span style=font-weight:700></span>
+**Core values:**
+
+**Key results:**
+
+-
+</code></pre></div><p>Here&rsquo;s an example of what a OKR could like:</p>
+<p><strong>OKRs/2021-Q4 Improve my cooking skills.md</strong></p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-md data-lang=md>---
+tags: [okr]
+---
+
+<span style=font-weight:700># Improve my cooking skills
+</span><span style=font-weight:700></span>
+**Core values:** [[Creativity (value)]], [[Quality (value)]], [[Beauty (value)]]
+
+**Key results:**
+
+<span style=color:#ff79c6>-</span> Take a cooking class
+<span style=color:#ff79c6>-</span> Cook ==3== new recipes
+</code></pre></div><h3 id=every-week>Every week</h3>
+<p>At the start of every week, I use the Calendar plug-in to create a weekly note from my [[#Weekly template]]. I use the weekly note to plan the coming week, and to review it afterwards.</p>
+<p>I plan the week by creating <em>initiatives</em> based on the OKRs for this quarter. Initiatives are essentially tasks that bring me closer to accomplishing my objective.</p>
+<blockquote>
+<p><strong>Note:</strong> I&rsquo;m misusing the terminology from the OKR world, but I&rsquo;m being pragmatic here. If you want to do it properly, you should probably be writing your initiatives as <a href=https://www.perdoo.com/resources/okr-leading-and-lagging-indicators/>leading indicators</a>.</p>
+</blockquote>
+<p>I embed the objectives for the current quarter from the index note so that I can remind myself of my OKRs on a weekly basis. You can embed another note, by adding an exclamation mark at the start of an internal link, <code>![[like this]]</code>.</p>
+<p><strong>Templates/Weekly.md</strong></p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-md data-lang=md><span style=font-weight:700># 🗓️ {{date:gggg-[W]ww}}
+</span><span style=font-weight:700></span>
+<span style=font-weight:700>## Objectives
+</span><span style=font-weight:700></span>
+![[OKRs#2021 Q4]]
+
+<span style=font-weight:700>## Initiatives
+</span><span style=font-weight:700></span>
+<span style=color:#ff79c6>-</span> [ ]
+
+<span style=font-weight:700>## Review
+</span><span style=font-weight:700></span>
+**What went well this week?**
+
+-
+
+**What&#39;s my biggest challenge right now, and what help do I need?**
+
+-
+</code></pre></div><p>One benefit of keeping the OKRs in their own notes is that I can hover over the embedded objectives in my weekly note to preview the key results for that objective without opening the OKR note. This helps when I&rsquo;m trying to figure out what initiatives I want to pursue for the week.</p>
+<blockquote>
+<p><strong>Note:</strong> At the start of every quarter, I need to update the template for my weekly note to link to the current quarter. If you&rsquo;re a template wizard, I&rsquo;d love to know how I can insert today&rsquo;s date as &ldquo;2021 Q4&rdquo;, so that I won&rsquo;t have to update the template at all.</p>
+</blockquote>
+<h3 id=every-day>Every day</h3>
+<p>Starting the day, I open the Daily note and plan what I&rsquo;m going to do for the day. My daily note also serves as my Inbox for the day. Any thoughts or book recommendations I have during the day goes into my daily note.</p>
+<p>At the top of the daily note, I embed the initiatives from my weekly note. This way, I&rsquo;m reminded every day of what I want to accomplish during the week. By embedding notes this way, I get full traceability from my quarterly goals to my daily tasks.</p>
+<p><strong>Templates/Daily.md</strong></p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-md data-lang=md><span style=font-weight:700># 🗓️ {{date:dddd, MMMM Do}}
+</span><span style=font-weight:700></span>
+![[{{date:gggg-[W]ww}}#Initiatives]]
+
+<span style=font-weight:700>## Tasks
+</span><span style=font-weight:700></span>
+<span style=color:#ff79c6>- [ ]</span> Inbox zero
+
+<span style=font-weight:700>## Scheduled
+</span><span style=font-weight:700></span>
+-
+
+<span style=font-weight:700>## Notes
+</span><span style=font-weight:700></span>
+-
+</code></pre></div><blockquote>
+<p><strong>Pro tip:</strong> In the task section in the template for your daily note, add one or two tasks that you can check off early in the day. Completing things early in the day builds confidence—if only a little—for the rest of the day.</p>
+</blockquote>
+<h2 id=finding-motivation>Finding motivation</h2>
+<p>Every now and then I—and I&rsquo;m sure you do too—go through periods where motivation and inspiration are hard to come by. When you&rsquo;re struggling to just get through the day, the last thing you need is feeling even worse for not keeping up with your goals.</p>
+<p>Instead of beating myself up when it happens, I try to create <em>forgiving</em> systems in my life. Systems that make it easy to get back into again. Whatever tool, system, or process I use, it has to be resilient to these low periods in my life. When I eventually find my way back, it has to be trivial to pick up again. If I need to relearn or reconfigure an app before I&rsquo;m caught up, it&rsquo;s likely not going to happen.</p>
+<p>Some days, I just don&rsquo;t feel like being productive. I might skip the weekly planning because I had a rough weekend. To me, the beauty of this workflow is that I can pick it up next week again. Didn&rsquo;t get to writing your daily note today? Try again tomorrow.</p>
+<p>Here&rsquo;s my track record for last month. As you can see, I skipped several weekly and daily notes.</p>
+<p>![[Screenshot 2021-12-16 at 11.25.17@2x.png]]</p>
+<p>By focusing on making it easy to pick up the ball whenever I drop it, I can come back to it whenever I find the motivation again.</p>
+<h2 id=using-okrs-for-my-personal-life>Using OKRs for my personal life</h2>
+<p>In the past, I&rsquo;ve only tracked my professional goals, which unfortunately meant that my personal goals often ended up in the backseat. Since professional goals were the only goals that I tracked, they ended up receiving more attention than they deserved.</p>
+<p>My first reaction when I started creating OKRs for my personal life was &ldquo;wow, this is a lot of commitments!&rdquo;. No wonder I wasn&rsquo;t making any progress on many of them. In the end, I&rsquo;m the same person all hours of the day. By setting and tracking personal goals along with my professional ones, I find that I&rsquo;m more intentional (and realistic) about my mental capacity.</p>
+<p>In practice, I define 2–3 objectives per life category, totaling up to 8–9 objectives per quarter.</p>
+<p>I&rsquo;ll admit I&rsquo;m no expert at writing OKRs—heck, not even half decent—but I find it still works for me. Most of my personal OKRs have <a href=https://felipecastro.com/en/okr/success-criteria-types-key-results/>activity-based key results</a>: they measure the things I do, rather than the value they provide. Mostly because my personal goals can vary dramatically from quarter to quarter, so I don&rsquo;t bother defining proper <a href=https://en.wikipedia.org/wiki/Performance_indicator>KPIs</a> for them.</p>
+<p>In other words, I&rsquo;m sacrificing the quality of my personal OKRs to be able to consolidate my goals into one single framework. Because <a href=https://www.forbes.com/sites/forbescoachescouncil/2018/10/30/things-that-are-worth-doing-are-worth-doing-poorly>anything worth doing is worth doing poorly</a>.</p>
+<h2 id=improving-the-workflow>Improving the workflow</h2>
+<p>I currently have no way of updating progress for the key results in my OKRs. I&rsquo;d love a plug-in that turns a Markdown task into a progress bar.</p>
+<p>In the following example, 1234 is the current value that I can update throughout the quarter:</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-md data-lang=md><span style=color:#ff79c6>-</span> [1000,1234,2000] Reach ==2000== followers on Twitter
+</code></pre></div><h2 id=final-thoughts>Final thoughts</h2>
+<p>By using Obsidian for goal-setting, I bring it into an existing system that I&rsquo;m already using every day.</p>
+<p>I believe there are three (technically four) main features that enable this workflow:</p>
+<ul>
+<li>Plugins like Periodic Notes and Calendar lets you automate note creation based on time.</li>
+<li>Linking notes lets you drill down through my periodic notes with full traceability.</li>
+<li>Embedding notes lets you see the bigger picture even when I&rsquo;m not actively working on it.</li>
+</ul>
+<p>I want to stress that I&rsquo;ve arrived at this workflow by starting out small and making incremental changes. I&rsquo;ve covered the steps in the workflow from high-level to low-level. If you&rsquo;re new to Obsidian or goal tracking in general, I recommend that you start with the low-level parts of the workflow, such as setting up a daily note. Once you&rsquo;ve turned it into a habit, try adding a weekly note, and so on.</p>
+<p>I&rsquo;d love to hear your suggestions on what can be improved!</p>
+</section>
+</article>
+</main><footer class=footer>
+<p class="overline text--disabled">About</p>
+<p class=text--disabled>
+I'm a Developer Advocate at
+<a href=https://grafana.com>Grafana Labs</a>, who enjoys learning, building, and
+teaching software.
+</p>
+<div class=social>
+<a class=social__icon href=https://github.com/marcusolsson aria-label=GitHub><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>GitHub icon</title><path d="M12 .297c-6.63.0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577.0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93.0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176.0.0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22.0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22.0 1.606-.015 2.896-.015 3.286.0.315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+</a>
+<a class=social__icon href=https://twitter.com/marcusolsson aria-label=Twitter><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>Twitter icon</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958.0 002.163-2.723c-.951.555-2.005.959-3.127 1.184A4.92 4.92.0 0011.78 8.288C7.69 8.095 4.067 6.13 1.64 3.162A4.822 4.822.0 00.974 5.637c0 1.71.87 3.213 2.188 4.096A4.904 4.904.0 01.934 9.117v.06a4.923 4.923.0 003.946 4.827 4.996 4.996.0 01-2.212.085 4.936 4.936.0 004.604 3.417A9.867 9.867.0 011.17 19.611c-.39.0-.779-.023-1.17-.067a13.995 13.995.0 007.557 2.209c9.053.0 13.998-7.496 13.998-13.985.0-.21.0-.42-.015-.63A9.935 9.935.0 0024 4.59z"/></svg>
+</a>
+<a class=social__icon href=https://linkedin.com/in/marcusolsson1 aria-label=LinkedIn><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn icon</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853.0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601.0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144.0-2.063-.926-2.063-2.065.0-1.138.92-2.063 2.063-2.063 1.14.0 2.064.925 2.064 2.063.0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225.0H1.771C.792.0.0.774.0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2.0 22.222.0h.003z"/></svg>
+</a>
+</div>
+<p class=text--disabled>
+<small>&copy; Copyright 2021 <a href=https://marcus.se.net>Marcus Olsson</a></small>
+</p>
+</footer>
+</div>
+</body>
+</html>
