@@ -1,0 +1,1 @@
+function myFunction(){var e=document.getElementById("previous-positions"),t=document.getElementById("toggle-previous-positions");e.style.display="block",t.style.display="none"}
