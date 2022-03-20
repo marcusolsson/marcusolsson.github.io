@@ -4,61 +4,79 @@
   --font-family--mono: SFMono-Regular, consolas, Liberation Mono, menlo, courier,
     monospace;
 
+  --white: white;
+  --black: black;
+
+  --dark-alt: rgb(24, 24, 24);
+  --dark-border: rgb(41, 41, 41);
+  --gray-1: rgb(24, 24, 24);
+  --gray-2: #232323;
+  --gray-3: #282828;
+  --gray-4: rgb(240, 240, 240);
+  --gray-5: rgb(250, 250, 250);
+  --gray-6: rgb(255, 255, 255);
+
+  --green: #2edb6e;
+
   --rgb-white: 255, 255, 255;
   --rgb-black: 0, 0, 0;
-  --rgb-dark-grey: 31, 31, 31;
-  --rgb-blue: 85, 163, 240;
-  --dark: 30, 34, 38;
-  --dark-alt: 24, 24, 24;
-  --dark-border: 41, 41, 41;
+  // --rgb-dark-grey: 31, 31, 31;
+  // --rgb-blue: 85, 163, 240;
 
-  --text-emphasis-high: 0.87;
-  --text-emphasis-low: 0.6;
-  --text-emphasis-disabled: 0.47;
+  // --dark-alt: 24, 24, 24;
+  // --dark: 30, 34, 38;
 
-  --text-color-primary: rgba(var(--rgb-black), var(--text-emphasis-high));
-  --text-color-secondary: rgba(var(--rgb-black), var(--text-emphasis-low));
-  --text-color-disabled: rgba(var(--rgb-black), var(--text-emphasis-disabled));
-  --text-color-interactive: rgba(var(--rgb-blue), var(--text-emphasis-high));
+  --emphasis-high: 0.87;
+  --emphasis-medium: 0.6;
+  --emphasis-low: 0.38;
 
-  --font-size-xx-small: 1.2rem;
-  --font-size-x-small: 1.4rem;
-  --font-size-small: 1.6rem;
-  --font-size-medium: 1.8rem;
-  --font-size-large: 2rem;
-  --font-size-x-large: 2.8rem;
-  --font-size-xx-large: 4rem;
-  --font-size-base: 11px;
+  --color-background: rgb(var(--rgb-white));
 
-  --spacing-large: 2rem;
-  --spacing-medium: 1.8rem;
-  --spacing-small: 1.6rem;
+  --color-text-primary: rgba(var(--rgb-black), var(--emphasis-high));
+  --color-text-secondary: rgba(var(--rgb-black), var(--emphasis-medium));
+  --color-text-tertiary: rgba(var(--rgb-black), var(--emphasis-low));
 
+  --color-interactive: var(--green);
+
+  --text-base: 11px;
+  --text-xxs: 1.2rem;
+  --text-xs: 1.4rem;
+  --text-sm: 1.6rem;
+  --text-md: 1.8rem;
+  --text-lg: 2rem;
+  --text-xl: 2.8rem;
+  --text-xxl: 4rem;
+
+  --space-xl: 2.2rem;
+  --space-lg: 2rem;
+  --space-md: 1.8rem;
+  --space-sm: 1.6rem;
+  --space-xs: 1rem;
+  --space-xxs: 0.2rem;
+
+  --border-radius-lg: 10px;
   --border-radius: 4px;
-  --background-color: rgb(var(--rgb-white));
 
   --surface-overlay: 0.02;
   --surface-color: rgba(var(--rgb-white), var(--surface-overlay));
 
-  --surface-alt: rgb(250, 250, 250);
-  --surface-alt-border: rgb(240, 240, 240);
+  --surface-alt-border: var(--gray-4);
+  --surface-alt: var(--gray-5);
 
-  --card-background: rgb(255, 255, 255);
-  --card-border: rgb(240, 240, 240);
-
-  --text-color-interactive: #2edb6e;
+  --card-background: var(--gray-6);
+  --card-border: var(--gray-4);
 }
 
 [data-theme="dark"] {
-  --text-color-primary: rgba(var(--rgb-white), 0.87);
-  --text-color-secondary: rgba(var(--rgb-white), 0.6);
-  --text-color-disabled: rgba(var(--rgb-white), 0.38);
+  --color-background: #1e1e1e;
 
-  --background-color: #1e1e1e;
+  --color-text-primary: rgba(var(--rgb-white), var(--emphasis-high));
+  --color-text-secondary: rgba(var(--rgb-white), var(--emphasis-medium));
+  --color-text-tertiary: rgba(var(--rgb-white), var(--emphasis-low));
 
-  --surface-alt: rgb(var(--dark-alt));
-  --surface-alt-border: rgb(var(--dark-border));
+  --surface-alt: var(--dark-alt);
+  --surface-alt-border: var(--dark-border);
 
-  --card-background: #232323;
-  --card-border: #282828;
+  --card-background: var(--gray-2);
+  --card-border: var(--gray-3);
 }

@@ -1,9 +1,19 @@
 {{ define "main" }}
 <section class="content-block-odd">
   <section class="hero-block">
-    <header class="page__header">
-      <h1>Marcus Olsson</h1>
-    </header>
+    <h1>Hi, I'm Marcus 👋</h1>
+    <p>
+      I'm an imaginative generalist who uses his experience of building software
+      products to create educational resources for other developers.
+    </p>
+    <p>
+      I find my passion in making sense of complex topics and then teaching what
+      I've learned to others.
+    </p>
+  </section>
+</section>
+<section class="content-block-even">
+  <section class="text-block">
     {{ .Content }}
     <ul>
       {{ range $.Site.Data.resume.highlights }}
@@ -11,6 +21,8 @@
       {{ end }}
     </ul>
   </section>
+</section>
+<section class="content-block-odd">
   <section class="text-block">
     <!-- Experience -->
     <section>

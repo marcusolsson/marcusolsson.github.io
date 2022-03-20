@@ -1,12 +1,12 @@
 .overline {
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  font-size: var(--font-size-xx-small);
+  font-size: var(--text-xxs);
   font-weight: 500;
-  color: var(--text-color-disabled);
+  color: var(--color-text-tertiary);
 }
 
 .publication-date {
-  font-size: var(--font-size-small);
-  color: var(--text-color-secondary);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
 }

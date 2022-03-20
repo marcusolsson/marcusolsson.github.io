@@ -22,10 +22,10 @@
     font-size: 1.5rem;
     padding: 0.5rem 1.25rem;
     font-weight: 600;
-    color: var(--text-color-disabled);
+    color: var(--color-text-tertiary);
 
     &:hover {
-      color: var(--text-color-primary);
+      color: var(--color-text-primary);
       text-decoration-thickness: 2px;
       text-underline-position: under;
     }
@@ -66,14 +66,14 @@
 
 .card {
   padding: 0;
-  border-radius: 10px;
+  border-radius: var(--border-radius-lg);
   background-color: var(--card-background);
   border: 1px solid var(--card-border);
   box-shadow: none;
   width: 100%;
   display: flex;
   flex-direction: column;
-  color: var(--text-color-secondary);
+  color: var(--color-text-secondary);
 
   &__media img {
     width: 100%;
@@ -83,27 +83,27 @@
   }
 
   &__body {
-    padding: var(--spacing-medium);
-    font-size: var(--font-size-medium);
+    padding: var(--space-md);
+    font-size: var(--text-md);
 
     &--sm {
-      padding: var(--spacing-small);
-      font-size: var(--font-size-small);
+      padding: var(--space-sm);
+      font-size: var(--text-sm);
     }
   }
 
   &__title {
     font-weight: 600;
     display: block;
-    margin-bottom: 8px;
-    color: var(--text-color-primary);
+    margin-bottom: var(--space-xs);
+    color: var(--color-text-primary);
 
     &:last-child {
       margin-bottom: 0;
     }
 
     & a {
-      color: var(--text-color-primary);
+      color: var(--color-text-primary);
 
       &:hover {
         text-decoration: none;
@@ -125,15 +125,15 @@
 
 .btn {
   display: inline-block;
-  padding: 4px 16px;
+  padding: var(--space-xxs) var(--space-md);
   border-radius: 9999px;
-  border: 2px solid #323232;
+  border: 2px solid var(--color-text-secondary);
   background-color: transparent;
 
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
-  color: var(--text-color-primary);
+  color: var(--color-text-primary);
 
   cursor: pointer;
 
@@ -141,7 +141,7 @@
 
   &:hover {
     transition: all 0.2s;
-    border: 2px solid var(--text-color-interactive);
+    border: 2px solid var(--color-interactive);
   }
 }
 
@@ -157,10 +157,10 @@
   height: 1px;
 
   &:focus {
-    font-size: var(--font-size-small);
-    padding: var(--spacing-small);
-    color: rgba(var(--rgb-white), var(--text-emphasis-high));
-    background-color: rgba(var(--rgb-blue), 1);
+    font-size: var(--font-size-sm);
+    padding: var(--space-sm);
+    color: rgba(var(--rgb-white), var(--emphasis-high));
+    background-color: var(--color-interactive);
     display: inline-block;
     height: auto;
     width: auto;
@@ -188,11 +188,11 @@ aside > nav {
       padding: 0.5rem 0;
 
       a {
-        color: var(--text-color-disabled);
+        color: var(--color-text-tertiary);
         transition: all 100ms ease-in-out;
 
         &:hover {
-          color: var(--text-color-primary);
+          color: var(--color-text-primary);
           text-decoration: none;
           transition: all 100ms ease-in-out;
         }
@@ -205,7 +205,7 @@ aside > nav {
 
     li.active {
       a {
-        color: var(--text-color-secondary);
+        color: var(--color-text-secondary);
         transition: all 100ms ease-in-out;
       }
     }
@@ -236,10 +236,10 @@ aside > nav {
 
 .brand {
   &__title {
-    font-size: var(--font-size-large);
+    font-size: var(--text-lg);
     font-weight: 600;
 
-    color: var(--text-color-primary);
+    color: var(--color-text-primary);
 
     &:hover {
       text-decoration: none;
@@ -255,7 +255,7 @@ aside > nav {
   margin-bottom: 6rem;
 
   & h6 {
-    color: var(--text-color-disabled);
+    color: var(--color-text-tertiary);
   }
 
   &__header {

@@ -4,9 +4,7 @@ layout: resume
 noindex: true
 ---
 
-I'm an imaginative generalist who uses his experience of building software products to create educational resources for other developers. I find my passion in making sense of complex topics and then teaching what I've learned to others.
-
-Here are some of the things I can do for you:
+## What I can do for you
 
 - **Developer documentation**: Designing and writing [developer docs](https://marcus.se.net/obsidian-plugin-docs), [guides](/forum-series-plugin-development), and [blog posts](/writing).
 - **Developer support**: Supporting developers when official resources aren't enough, for example on forums, office hours, or organized events.

@@ -95,39 +95,39 @@
 }
 
 .text-xs {
-  font-size: var(--font-size-x-small);
+  font-size: var(--text-xs);
 }
 
 .text-sm {
-  font-size: var(--font-size-small);
+  font-size: var(--text-sm);
 }
 
 .text-md {
-  font-size: var(--font-size-medium);
+  font-size: var(--text-md);
 }
 
 .text-lg {
-  font-size: var(--font-size-large);
+  font-size: var(--text-lg);
 }
 
 .text-xl {
-  font-size: var(--font-size-x-large);
+  font-size: var(--text-xl);
 }
 
 .text--primary {
-  color: var(--text-color-primary);
+  color: var(--color-text-primary);
 }
 
 .text-secondary {
-  color: var(--text-color-secondary);
+  color: var(--color-text-secondary);
 }
 
 .text--disabled {
-  color: var(--text-color-disabled);
+  color: var(--color-text-tertiary);
 }
 
 .text--interactive {
-  color: var(--text-color-interactive);
+  color: var(--color-interactive);
 }
 
 @media screen and (min-width: 700px) {

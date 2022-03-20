@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  font-size: var(--font-size-x-small);
+  font-size: var(--text-xs);
   padding: 3rem;
   gap: 2rem;
 }
@@ -36,7 +36,7 @@
   p {
     font-size: 2.4rem;
     max-width: 40ch;
-    color: var(--text-color-secondary);
+    color: var(--color-text-secondary);
   }
 }
 
@@ -54,7 +54,7 @@
 }
 
 .page {
-  margin-bottom: var(--spacing-large);
+  margin-bottom: var(--space-lg);
 
   &:last-child {
     margin-bottom: 0;
@@ -99,7 +99,7 @@
     padding: 1rem;
 
     & svg {
-      fill: var(--text-color-disabled);
+      fill: var(--color-text-tertiary);
       height: 24px;
       width: 24px;
     }
@@ -108,7 +108,7 @@
       text-decoration: none;
 
       & svg {
-        fill: var(--text-color-primary);
+        fill: var(--color-text-primary);
       }
     }
   }
