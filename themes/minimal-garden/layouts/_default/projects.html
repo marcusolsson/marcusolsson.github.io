@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="content-block-odd">
-  <section class="hero-block">
+  <header class="hero-block">
     <h1>Open source projects</h1>
     <p>
       Explore some of the open source projects I've built. If any of these
@@ -107,28 +107,26 @@
         ></path>
       </svg>
     </a>
-  </section>
+  </header>
 </section>
 
 <section class="content-block-even">
-  <section class="text-block">
-    <header class="section__header">
-      <h2>Plugins for Grafana</h2>
-      <p>
-        <a href="https://grafana.com">Grafana</a> is an open source platform for
-        monitoring and observability that can be extended using plugins. Plugins
-        are written in
-        <a href="https://www.typescriptlang.org/">TypeScript</a> and
-        <a href="https://golang.org">Go</a>.
-      </p>
-      <p>
-        I aim to build plugins that are <strong>simple</strong>,
-        <strong>functional</strong>, and <strong>user-friendly</strong>. They're
-        intended to serve as examples of good practices for Grafana plugin
-        development.
-      </p>
-    </header>
-  </section>
+  <header class="text-block">
+    <h2>Plugins for Grafana</h2>
+    <p>
+      <a href="https://grafana.com">Grafana</a> is an open source platform for
+      monitoring and observability that can be extended using plugins. Plugins
+      are written in
+      <a href="https://www.typescriptlang.org/">TypeScript</a> and
+      <a href="https://golang.org">Go</a>.
+    </p>
+    <p>
+      I aim to build plugins that are <strong>simple</strong>,
+      <strong>functional</strong>, and <strong>user-friendly</strong>. They're
+      intended to serve as examples of good practices for Grafana plugin
+      development.
+    </p>
+  </header>
   <section class="grid-block">
     <div class="grid grid-cols-3 gap-8">
       {{ range $.Site.Data.projects.plugins }}
@@ -160,16 +158,14 @@
 
 <!-- Obsidian -->
 <section class="content-block-odd">
-  <section class="text-block">
-    <header class="section__header">
-      <h2>Obsidian</h2>
-      <p>
-        <a href="https://obsidian.md">Obsidian</a> is a knowledge base and a
-        tool for managing notes in Markdown format, that can also be extended
-        through plugins and themes.
-      </p>
-    </header>
-  </section>
+  <header class="text-block">
+    <h2>Obsidian</h2>
+    <p>
+      <a href="https://obsidian.md">Obsidian</a> is a knowledge base and a tool
+      for managing notes in Markdown format, that can also be extended through
+      plugins and themes.
+    </p>
+  </header>
   <section class="grid-block">
     <div class="grid grid-cols-3 gap-8">
       {{ range $.Site.Data.projects.obsidian }}
@@ -191,13 +187,11 @@
 <!-- Concepts -->
 <section class="content-block-even">
   <section class="text-block">
-    <header class="section__header">
-      <h2>Concepts</h2>
-      <p>
-        These projects are the culminations of various shower thoughts and ideas
-        that deserved to be realized.
-      </p>
-    </header>
+    <h2>Concepts</h2>
+    <p>
+      These projects are the culminations of various shower thoughts and ideas
+      that deserved to be realized.
+    </p>
   </section>
   <section class="grid-block">
     <div class="grid grid-cols-3 gap-8">
@@ -218,16 +212,14 @@
 <!-- Artwork -->
 <section class="content-block-odd">
   <section class="text-block">
-    <header class="section__header">
-      <h2>Artwork</h2>
-      <p>
-        Every now and then I create vector illustrations for various open source
-        projects, mostly
-        <a href="https://blog.golang.org/gopher">gophers</a>. You can find more
-        of my artwork on
-        <a href="https://github.com/marcusolsson/gophers">GitHub</a>.
-      </p>
-    </header>
+    <h2>Artwork</h2>
+    <p>
+      Every now and then I create vector illustrations for various open source
+      projects, mostly
+      <a href="https://blog.golang.org/gopher">gophers</a>. You can find more of
+      my artwork on
+      <a href="https://github.com/marcusolsson/gophers">GitHub</a>.
+    </p>
   </section>
   <section class="grid-block">
     <div class="grid grid-cols-3 gap-8">

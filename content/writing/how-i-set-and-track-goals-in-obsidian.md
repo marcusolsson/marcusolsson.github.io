@@ -4,6 +4,7 @@ date: 2021-12-29
 icon: /images/avatar.png
 summary: "For as long as I can remember, I've been setting and documenting goals for myself. In this article, I'll walk you through how I plan and track my professional and personal goals in Obsidian."
 featured: true
+toc: true
 ---
 
 For as long as I can remember, I've been setting and documenting goals for myself. Usually though, I'd eventually lose them to Google Drive or some trendy productivity app. Some were paid. Most had some obscure proprietary format. Once it was time to plan the next quarter, either I'd forgotten how to use the app, or my subscription had expired. My high-level goals would inevitably become disconnected from my low-level tasks, since they relied on me constantly having to configure and sync between all the apps and formats.

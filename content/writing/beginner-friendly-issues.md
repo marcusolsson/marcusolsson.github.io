@@ -3,6 +3,7 @@ title: Beginner-friendly issues
 date: 2020-09-28
 icon: /images/avatar.png
 featured: true
+toc: true
 summary: One of the first pieces of advice that aspiring contributors get when looking to contribute to their first open source project is to search for “beginner-friendly issues”. Learn what makes a great beginner-friendly issue.
 ---
 
