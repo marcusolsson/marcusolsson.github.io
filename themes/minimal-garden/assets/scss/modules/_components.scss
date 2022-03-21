@@ -132,13 +132,13 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
-  color: rgba(255, 255, 255, var(--emphasis-high));
+  color: var(--color-text-primary);
   background-color: transparent;
 
   cursor: pointer;
 
   transition: outline 300ms, outline-offset 300ms;
-  outline: 2px solid var(--card-border);
+  outline: 2px solid var(--button-border);
   outline-offset: 0;
 
   &:focus,
