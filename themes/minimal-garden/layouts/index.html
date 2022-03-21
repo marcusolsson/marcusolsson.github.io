@@ -27,7 +27,8 @@
                 margin-bottom: 0.4rem;
               "
             >
-              <img style="height: 1em" src="{{ .Params.icon }}" /> {{
+              <img style="height: 1em" alt="Logo for {{ .Params.publisher |
+              default "marcus.se.net" }}" src="{{ .Params.icon }}" /> {{
               .Params.publisher | default "marcus.se.net" }}
             </div>
             <h3 style="margin-top: 0">
@@ -58,7 +59,7 @@
               src="{{ .logo }}"
               width="16"
               height="16"
-              alt="The logo for {{ .name }}."
+              alt="Logo for {{ .name }}."
             />
             <span class="card__title ml-4">
               <a href="{{ .url }}">{{ .name }}</a>
