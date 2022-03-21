@@ -111,7 +111,7 @@ h1 {
 }
 
 h2 {
-  font-size: var(--text-lg);
+  font-size: var(--text-xl);
   font-weight: 500;
 }
 
@@ -151,7 +151,6 @@ h2,
 h3 {
   margin-top: 3rem;
   margin-bottom: 2rem;
-  font-weight: 700;
 }
 
 @media screen and (min-width: 700px) {

@@ -11,8 +11,8 @@
 </section>
 <section class="content-block-even">
   <section class="grid-block">
-    <h2 class="text-center">Recommended articles</h2>
-    <div class="grid grid-cols-4 gap-8">
+    <h2 class="text-center" style="margin-top: 0">Recommended reading 📖</h2>
+    <div class="grid grid-cols-4 gap-8 pt-8 pb-8">
       {{ range where .Site.RegularPages "Section" "writing" }} {{ if
       .Params.featured }}
       <article class="card">
@@ -42,7 +42,7 @@
               >
             </h3>
           </header>
-          <p style="font-size: 18px">{{ .Summary }}</p>
+          <section class="text-sm">{{ .Summary }}</section>
         </div>
       </article>
       {{ end }} {{ end }}
@@ -54,8 +54,10 @@
 </section>
 <section class="content-block-odd">
   <section class="grid-block">
-    <h2 class="text-center">Check out some of the stuff I've built</h2>
-    <div class="grid grid-cols-4 gap-8">
+    <h2 class="text-center" style="margin-top: 0">
+      Check out some of the stuff I've built 👇
+    </h2>
+    <div class="grid grid-cols-4 gap-8 pt-8 pb-8">
       {{ range $.Site.Data.projects.plugins }} {{ if .featured }}
       <div class="card">
         <div class="card__body">
@@ -71,7 +73,7 @@
               <a href="{{ .url }}">{{ .name }}</a>
             </span>
           </div>
-          <p>{{ $.RenderString .description }}</p>
+          <section class="text-sm">{{ $.RenderString .description }}</section>
         </div>
       </div>
       {{ end }} {{ end }} {{ range $.Site.Data.projects.obsidian }} {{ if
@@ -83,7 +85,7 @@
               <a href="{{ .url }}">{{ .name }}</a>
             </span>
           </div>
-          <p>{{ $.RenderString .description }}</p>
+          <section class="text-sm">{{ $.RenderString .description }}</section>
         </div>
       </div>
       {{ end }} {{ end }}
