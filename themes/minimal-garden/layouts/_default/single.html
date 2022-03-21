@@ -2,9 +2,12 @@
 <article class="text-block">
   <header class="section__header">
     <h1>{{ .Title }}</h1>
+    <p class="publication-date">
     {{- if not .PublishDate.IsZero -}}
-    <time datetime="{{ .PublishDate.Format "2006-01-02" }}" class="publication-date">{{ .PublishDate.Format "Jan 2, 2006" }}</time>
+    <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "Jan 2, 2006" }}</time>&nbsp;&mdash;&nbsp;
     {{- end -}}
+    {{.ReadingTime}} {{if gt (mul .ReadingTime 60) 60}}minutes{{else}}minute or less{{end}} read
+    </p>
   </header>
   <section>
     {{ .Content }}

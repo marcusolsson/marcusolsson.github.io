@@ -2,11 +2,11 @@
 <section class="content-block-odd">
   <header class="hero-block">
     <h1>Hi, I'm Marcus 👋</h1>
-    <p>
+    <p class="text--secondary">
       I'm an imaginative generalist who uses his experience of building software
       products to create educational resources for other developers.
     </p>
-    <p>
+    <p class="text--disabled">
       I find my passion in making sense of complex topics and then teaching what
       I've learned to others.
     </p>
@@ -35,10 +35,10 @@
               <div>{{ .ended }}</div>
             </div>
           </header>
-          <p>{{ $.RenderString .description }}</p>
+          <p class="text--primary">{{ $.RenderString .description }}</p>
           <ul>
             {{ range .highlights }}
-            <li>{{ $.RenderString . }}</li>
+            <li class="text--primary">{{ $.RenderString . }}</li>
             {{ end }}
           </ul>
           {{ if .technologies }}
