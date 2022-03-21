@@ -27,8 +27,8 @@
   // --dark: 30, 34, 38;
 
   --emphasis-high: 0.87;
-  --emphasis-medium: 0.65;
-  --emphasis-low: 0.5;
+  --emphasis-medium: 0.74;
+  --emphasis-low: 0.6;
 
   --color-background: rgb(var(--rgb-white));
 
@@ -36,7 +36,7 @@
   --color-text-secondary: rgba(var(--rgb-black), var(--emphasis-medium));
   --color-text-tertiary: rgba(var(--rgb-black), var(--emphasis-low));
 
-  --color-interactive: var(--green);
+  --color-interactive: #00ab42;
 
   --text-base: 11px;
   --text-xxs: 1.2rem;
@@ -61,13 +61,17 @@
   --surface-color: rgba(var(--rgb-white), var(--surface-overlay));
 
   --surface-alt-border: var(--gray-4);
-  --surface-alt: var(--gray-5);
+  --surface-alt: #fafafa;
 
   --card-background: var(--gray-6);
   --card-border: none;
 }
 
 [data-theme="dark"] {
+  --emphasis-high: 0.87;
+  --emphasis-medium: 0.65;
+  --emphasis-low: 0.5;
+
   --color-background: #1e1e1e;
 
   --color-text-primary: rgba(var(--rgb-white), var(--emphasis-high));
@@ -79,4 +83,6 @@
 
   --card-background: var(--gray-2);
   --card-border: var(--gray-3);
+
+  --color-interactive: var(--green);
 }
