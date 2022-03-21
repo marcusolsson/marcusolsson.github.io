@@ -26,8 +26,14 @@
                 margin-bottom: 0.4rem;
               "
             >
-              <img style="height: 1em" src="{{ .Params.icon }}" /> {{
-              .Params.publisher | default "marcus.se.net" }}
+              <img
+                style="height: 1em"
+                src="{{ .Params.icon }}"
+                alt=""
+                aria-hidden="true"
+              />
+              <span class="sr-only">Published on</span>
+              {{ .Params.publisher | default "marcus.se.net" }}
             </div>
             <h3 style="margin-top: 0">
               <a href="{{ .Params.external_url | default .Permalink }}"
