@@ -7,13 +7,17 @@
       projects have been useful to you, consider buying me a coffee.
     </p>
 
-    <a href="https://www.buymeacoffee.com/marcusolsson">
+    <a
+      href="https://www.buymeacoffee.com/marcusolsson"
+      aria-label="Buy me a coffee"
+    >
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="150"
         height="42"
         viewBox="0 0 260 73"
         fill="none"
+        aria-hidden="true"
       >
         <path
           d="M0 11.68C0 5.22932 5.22931 0 11.68 0H248.2C254.651 0 259.88 5.22931 259.88 11.68V61.32C259.88 67.7707 254.651 73 248.2 73H11.68C5.22931 73 0 67.7707 0 61.32V11.68Z"
@@ -135,9 +139,10 @@
           <div class="flex items-center mb-2">
             <img
               src="{{ .logo }}"
-              alt="The logo for {{ .name }}."
+              alt=""
               width="32"
               height="32"
+              aria-hidden="true"
             />
             <span class="card__title m-0 ml-4">
               <a href="{{ .url }}">{{ .name }}</a>
@@ -146,7 +151,9 @@
           <div>{{ .description }}</div>
           {{ if .docs }}
           <p class="mt-2">
-            <a href="{{ .docs }}">Docs</a>
+            <a href="{{ .docs }}" aria-label="Docs for the {{ .name }} plugin"
+              >Docs</a
+            >
           </p>
           {{ end }}
         </div>
@@ -218,7 +225,11 @@
       projects, mostly
       <a href="https://blog.golang.org/gopher">gophers</a>. You can find more of
       my artwork on
-      <a href="https://github.com/marcusolsson/gophers">GitHub</a>.
+      <a
+        href="https://github.com/marcusolsson/gophers"
+        aria-label="GitHub repository with artwork"
+        >GitHub</a
+      >.
     </p>
   </section>
   <section class="grid-block">
