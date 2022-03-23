@@ -167,6 +167,7 @@ talks:
         url: https://skillsmatter.com/conferences/7279-mucon-stockholm-2015-the-microservices-conference
         type: Conference
       - venue: JavaForum, Göteborg 2015
+        url: https://www.meetup.com/Javaforum-Goteborg/events/226532966/
         type: Meetup
 
   - title: The Go programming language
@@ -177,7 +178,7 @@ talks:
         url: https://sites.google.com/site/stockholmgtug/2015-03-25
         type: Meetup
 
-  - title: CQRS och Event Sourcing
+  - title: Fånga affären med CQRS och Event Sourcing
     type: Talk
     description:
     presentations:
@@ -188,11 +189,12 @@ talks:
         url: https://www.mynewsdesk.com/se/citerus/events/faanga-affaeren-med-cqrs-och-event-sourcing-52263
         type: Seminar
 
-  - title: Event storming
+  - title: Utforska affären med Event Storming
     type: Talk
     description:
     presentations:
       - venue: Citerus, Stockholm 2015
+        url: https://www.mynewsdesk.com/se/citerus/events/utforska-affaeren-med-event-storming-52262
         type: Seminar
 
   - title: Domain Driven Design in Go
