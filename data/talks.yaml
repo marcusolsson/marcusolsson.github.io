@@ -1,0 +1,247 @@
+talks:
+  - title: Getting started with dashboard design
+    type: Talk
+    description: Have you finished experimenting with your first dashboard and are looking to build your first production dashboard? Or perhaps you’re looking to finally give your existing dashboards that well-deserved makeover? In this webinar, you’ll learn how to design dashboards that your users will want to come back to. You’ll learn to define the audience and the context of your dashboard to create dashboards with purpose.
+    featured: true
+    presentations:
+      - venue: Grafana Labs, 2021
+        url: https://grafana.com
+        watch: https://grafana.com/go/webinar/guide-to-dashboard-design/
+        type: Webinar
+  - title: Getting started with Grafana
+    type: Talk
+    description: In this webinar, Marcus will show you how to get started using Grafana. He'll walk you through the Grafana user interface while showing how to set up monitoring for a web service that uses Prometheus and Loki to store metrics and logs. You'll learn how to connect, explore, and correlate data in Grafana to gain valuable insights into your application.
+    featured: true
+    presentations:
+      - venue: Getting started with Grafana 8, 2021
+        url: https://grafana.com
+        watch: https://grafana.com/go/webinar/getting-started-with-grafana/
+        type: Webinar
+      - venue: Getting started with Grafana 7, 2020
+        url: https://grafana.com
+        watch: https://www.youtube.com/watch?v=0n2UNzk2OaI
+        type: Webinar
+      - venue: Rails Girls Kumasi, 2020
+        url: https://twitter.com/railsgirlsksi
+        type: Webinar
+
+  - title: Building your first panel plugin
+    type: Talk
+    description: |
+      Plugins amplify what you can do with Grafana. By creating your own custom visualizations and data source integrations you can bring in your own data and present it in a way that makes sense for you.
+
+      In this webinar, Solutions Engineer Christine Wang and Developer Advocate Marcus Olsson will show you how you can build a panel plugin to create custom visualizations for Grafana.
+    presentations:
+      - venue: Grafana Labs, 2020
+        url: https://grafana.com
+        watch: https://grafana.com/go/webinar/building-your-first-panel-plugin/
+        type: Webinar
+
+  - title: Plugin showcase
+    type: Talk
+    description:
+    presentations:
+      - venue: Grafana Community Call
+        url: https://www.youtube.com/playlist?list=PLDGkOdUX1Ujo0OyE5HFffHE9GJVvaVXGs
+        watch: https://www.youtube.com/watch?v=SovsrqKDV9Q&list=PLDGkOdUX1Ujo0OyE5HFffHE9GJVvaVXGs&t=1565s
+        type: Community call
+
+  - title: Running Chaos Engineering experiments with Gremlin and Grafana
+    type: Talk
+    description: Complex systems fail in complex and unexpected ways. Monitoring is critical to detect and resolve those incidents when they happen. But how do you know your monitoring and alerting are working correctly? Chaos Engineering allows you to validate your monitoring, test your systems with controlled failure, and practice your incident response processes. In this session, we’ll cover how to set up Grafana to quickly identify potential threats and how to get started with Chaos Engineering with Gremlin.
+    presentations:
+      - venue: Grafana Labs, 2020
+        url: https://grafana.com
+        watch: https://grafana.com/go/webinar/chaos-engineering-with-gremlin-and-grafana/
+        type: Webinar
+
+  - title: Fearless Software Delivery
+    type: Talk
+    slides: https://speakerdeck.com/marcusolsson/fearless-software-delivery
+    description: Fear is the enemy of innovation and creative experimentation. Yet so many developers feel anxious when they're about to release their feature to production. We'll look at how to make your team fearless by increasing the chance of getting it right, and by reducing the cost for when you get it wrong.
+    presentations:
+      - venue: DevOpsDays Stockholm 2019
+        url: https://devopsdays.org/events/2019-stockholm/program/marcus-olsson
+        type: Conference
+      - venue: TechWorld Summit, Stockholm 2019
+        url: https://techworld.event.idg.se/event/summit/#1557926104646-3a63163a-f9d7
+        type: Conference
+
+  - title: Serverless Go on Google Cloud Platform
+    type: Talk
+    description:
+    presentations:
+      - venue: Go Meetup, Stockholm 2019
+        url: https://www.meetup.com/Go-Stockholm/events/260663183/
+        type: Meetup
+
+  - title: Cloud-native deployments
+    type: Talk
+    description:
+    presentations:
+      - venue: Citerus, Stockholm 2018
+        type: Meetup
+
+  - title: Testing techniques in Go
+    type: Talk
+    slides: https://speakerdeck.com/marcusolsson/testing-techniques-for-go
+    description: In this talk, Marcus Olsson will walk you through some common and uncommon ways you can test your application. Among the things we'll look at are table tests, mocking dependencies, testing HTTP handlers and more. Chances are you'll learn something new, regardless of your previous experience in Go.
+    presentations:
+      - venue: Go Meetup Group, Malmö 2018
+        url: https://www.meetup.com/Go-Malmo/events/249662046/
+        type: Meetup
+      - venue: Go Meetup Group, Göteborg 2018
+        url: https://www.meetup.com/sweden-go-west/events/255827028/
+        type: Meetup
+      - venue: Go Meetup Group, Stockholm 2018
+        url: https://www.meetup.com/Go-Stockholm/events/250371868/
+        type: Meetup
+
+  - title: Pull-based deployments
+    type: Talk
+    description:
+    presentations:
+      - venue: Citerus, Stockholm 2019
+        type: Meetup
+      - venue: Google Cloud Summit, Stockholm 2018
+        type: Conference
+
+  - title: Docs-as-code for OSS
+    type: Talk
+    description: Your open source project has growing, improving, and amassing new features. The README is getting unwieldy, and you decide that it's about time that your baby gets some proper documentation. But how do you document a non-trivial open source project? How do you make sure that your docs are consistent, even with several authors around the world, many who don't have English as their native language? Marcus shares some of his experiences from the Grafana project.
+    presentations:
+      - venue: FOSS-Sthlm, Stockholm 2019
+        url: https://github.com/bagder/foss-sthlm-web/wiki/meetup-21
+        type: Meetup
+      - venue: Write the Docs, Stockholm 2019
+        url: https://www.meetup.com/Write-the-Docs-Stockholm/events/264124758/
+        watch: https://www.youtube.com/watch?v=DDB_BUO_UUU
+        type: Meetup
+
+  - title: How we started orchestrating our workflows with Apache Airflow
+    type: Talk
+    description:
+    presentations:
+      - venue: Google Cloud Platform Meetup, Stockholm 2018
+        url: https://www.meetup.com/gcp-stockholm/events/249164223
+        type: Meetup
+
+  - title: Drawing sticker-friendly gophers
+    type: Talk
+    description:
+    presentations:
+      - venue: Goto 10, Stockholm 2017
+        url: https://www.meetup.com/Go-Stockholm/events/242530277/
+
+  - title: What's coming in Go 1.8
+    type: Talk
+    description:
+    presentations:
+      - venue: TV4, Stockholm 2017
+        url: https://www.meetup.com/Go-Stockholm/events/236748141/
+
+  - title: Building an enterprise service in Go
+    type: Talk
+    slides: https://speakerdeck.com/marcusolsson/building-an-enterprise-service-in-go
+    description: Go has been widely successful for creating tools and infrastructure, but the simplicity of the language also makes for an excellent fit for implementing core business applications. We will look at a few patterns for domain objects and code organization and hopefully we'll take some additional steps towards Go in the modern enterprise. During this talk we will look at a sample application that demonstrates how a core domain could be implemented in Go. Hopefully, it will serve as leverage and inspiration for developers that want to write their next enterprise service in Go rather than using the traditional Java stack.
+    featured: true
+    presentations:
+      - venue: Golang UK, London 2016
+        type: Conference
+        url: https://www.gophercon.co.uk/archive/2016/
+        watch: https://www.youtube.com/watch?v=twcDf_Y2gXY
+
+  - title: Introduction to Go kit
+    type: Talk
+    description:
+    presentations:
+      - venue: Go Meetup Group, Stockholm 2016
+        url: https://www.meetup.com/Go-Stockholm/events/229984549/
+        type: Meetup
+
+  - title: An eventful world
+    type: Talk
+    description: In his talk, Marcus will explore real world analogies to the challenges we face in distributed systems and how they can help us find and to reason about bounded contexts and communication between services.
+    presentations:
+      - venue: µCon Stockholm 2015
+        url: https://skillsmatter.com/conferences/7279-mucon-stockholm-2015-the-microservices-conference
+        type: Conference
+      - venue: JavaForum, Göteborg 2015
+        type: Meetup
+
+  - title: The Go programming language
+    type: Talk
+    description:
+    presentations:
+      - venue: Google Technology User Group (GTUG)
+        url: https://sites.google.com/site/stockholmgtug/2015-03-25
+        type: Meetup
+
+  - title: CQRS och Event Sourcing
+    type: Talk
+    description:
+    presentations:
+      - venue: UmeJUG Javaforum, Umeå 2015
+        url: https://www.meetup.com/UmeJUG/events/220759806/
+        type: Meetup
+      - venue: Citerus, Stockholm 2015
+        url: https://www.mynewsdesk.com/se/citerus/events/faanga-affaeren-med-cqrs-och-event-sourcing-52263
+        type: Seminar
+
+  - title: Event storming
+    type: Talk
+    description:
+    presentations:
+      - venue: Citerus, Stockholm 2015
+        type: Seminar
+
+  - title: Domain Driven Design in Go
+    description:
+    type: Talk
+    presentations:
+      - venue: Go Meetup Group, Stockholm 2014
+        url: https://www.meetup.com/Go-Stockholm/events/216116202/
+        type: Meetup
+
+workshops:
+  - title: Monitoring with Grafana
+    description: Grafana is an open source platform for monitoring and observability. In this hands-on workshop, you'll learn how to get started with monitoring your systems with Grafana. You'll connect your data to Grafana and create beautiful visualizations to better understand your applications. After this workshop, you'll be able to set up a monitoring platform for your systems based on Grafana best practices. Even if you're familiar with Grafana, you'll learn something new!
+    type: Workshop
+    slides: https://www.denog.de/media/DENOG12/Day0_workshop_Monitoring%20with%20Grafana.pdf
+    presentations:
+      - venue: DENOG 12, 2020
+        url: https://www.denog.de/de/meetings/denog12/workshops.html
+        type: Conference
+
+  - title: Introduction to Go
+    type: Workshop
+    description: This workshop will introduce you to Go in the form of a code-along workshop. We'll help you get your development environment set up and walk you through the language through talks mixed with exercises. If you've been thinking about learning Go, this is a perfect chance to get started!
+    presentations:
+      - venue: Women In Tech, Bonnier Broadcasting, Stockholm 2018
+        url: https://www.eventbrite.com/e/women-in-tech-introduction-to-go-tickets-42980039455
+        type: Meetup
+      - venue: Diversity Meetup, Google, Stockholm 2017
+        url: https://www.eventbrite.com/e/go-diversity-workshop-tickets-33503046514
+        type: Meetup
+
+guest:
+  - title: Creating and using plugins for k6 and Grafana
+    type: Discussion
+    description:
+    presentations:
+      - venue: k6 Office Hours, 2021
+        url: https://www.youtube.com/playlist?list=PLJdv3RhAQXNE1TFXn2pp9h_Ul1q_kJrEZ
+        watch: https://www.youtube.com/watch?v=_1MDh265H9c
+        type: Office hour
+  - title: Introduction to Grafana
+    type: Discussion
+    description: Grafana is open source visualization and analytics software. It allows you to query, visualize, alert on, and explore your metrics no matter where they are stored. In plain English, it provides you with tools to turn your time-series database (TSDB) data into beautiful graphs and visualizations.
+    presentations:
+      - venue: Build IT Better DevOps, 2021
+        url: https://www.thisdot.co/blog/build-it-better-devops-monitoring-roundup
+        watch: https://www.youtube.com/watch?v=dsD8yJDp3EY
+        type: Webinar
+      - venue: Rawkode Academy, 2020
+        url: https://www.youtube.com/channel/UCrber_mFvp_FEF7D9u8PDEA
+        watch: https://www.youtube.com/watch?v=jA_rxeUftQQ
+        type: Live stream

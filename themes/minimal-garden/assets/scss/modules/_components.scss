@@ -85,15 +85,23 @@
 
   &__body {
     padding: var(--space-md);
+    font-size: var(--text-md);
 
     &--sm {
       padding: var(--space-sm);
+      font-size: var(--text-sm);
+
+      section {
+        margin-top: var(--space-xs);
+        margin-bottom: var(--space-xs);
+      }
     }
   }
 
   &__title {
-    font-weight: 600;
+    font-weight: 500;
     display: block;
+    margin-top: 0;
     margin-bottom: var(--space-xs);
     color: var(--color-text-primary);
 
@@ -318,4 +326,15 @@ aside > nav {
 #bio {
   font-size: 2.2rem;
   max-width: 35ch;
+}
+
+.badge {
+  font-size: var(--text-xxs);
+  background-color: var(--card-border);
+  border-radius: 9999px;
+  display: inline-block;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  padding: var(--space-xxs) var(--space-xs);
+  border: 1px solid var(--card-border);
 }
