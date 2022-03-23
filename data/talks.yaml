@@ -130,14 +130,14 @@ talks:
     type: Talk
     description:
     presentations:
-      - venue: Goto 10, Stockholm 2017
+      - venue: Go Meetup Group, Stockholm 2017
         url: https://www.meetup.com/Go-Stockholm/events/242530277/
 
   - title: What's coming in Go 1.8
     type: Talk
     description:
     presentations:
-      - venue: TV4, Stockholm 2017
+      - venue: Go Meetup Group, Stockholm 2017
         url: https://www.meetup.com/Go-Stockholm/events/236748141/
 
   - title: Building an enterprise service in Go
