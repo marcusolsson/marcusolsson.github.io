@@ -345,5 +345,5 @@ aside > nav {
   background-color: var(--green);
   color: rgba(0, 0, 0, 0.87);
   padding: var(--space-xxs) var(--space-xxs);
-  break-inside: avoid;
+  white-space: nowrap;
 }
