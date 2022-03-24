@@ -338,3 +338,12 @@ aside > nav {
   padding: var(--space-xxs) var(--space-xs);
   border: 1px solid var(--card-border);
 }
+
+.keyword {
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: var(--green);
+  color: rgba(0, 0, 0, 0.87);
+  padding: var(--space-xxs) var(--space-xxs);
+  break-inside: avoid;
+}
