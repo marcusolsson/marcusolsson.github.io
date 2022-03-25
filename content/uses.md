@@ -56,6 +56,7 @@ Here's what each of the labels mean:
 - 👍 [React](https://reactjs.org/) for more complex web applications, though I'm excited about [Svelte](https://svelte.dev/).
 - 👍 [rescript](https://rescript-lang.org/) for late night functional programming.
 - 👍 [brew](https://brew.sh/)
+- 👍 [ray.so](https://ray.so/) has replaced [carbon](https://carbon.now.sh/) for code screenshots.
 
 ## Desk setup
 
