@@ -1,7 +1,7 @@
 ---
 title: Events and explosions in a distributed system
 date: 2015-06-13
-icon: /images/avatar.png
+icon: /images/avatar-logo.webp
 summary: "I did a talk on Event Storming a short while ago where I started off by explaining why state transitions are so much more interesting than the actual states themselves. We had a lot of good discussions afterwards and I felt I wanted to elaborate a little bit further on the theme, in the context of distributed systems."
 ---
 

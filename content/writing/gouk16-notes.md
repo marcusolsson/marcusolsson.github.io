@@ -1,7 +1,7 @@
 ---
 title: Notes on my GolangUK 2016 talk
 date: 2016-08-22
-icon: /images/avatar.png
+icon: /images/avatar-icon.webp
 summary: "I’m writing this on the way home from GolangUK where I did a talk on Building an Enterprise Service in Go, based on the DDD Sample App. I was really overwhelmed with the positive feedback I got, some of which came from developers who never heard of DDD prior to my talk. Not totally unexpected however, since it’s an approach to a problem space which I believe Go has yet to conquer, but among the feedback I got were a few valid concerns that I thought I would address in the form of a blog post."
 ---
 

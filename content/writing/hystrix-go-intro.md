@@ -1,7 +1,7 @@
 ---
 title: Circuit breaking using hystrix-go
 date: 2015-05-09
-icon: /images/avatar.png
+icon: /images/avatar-icon.webp
 summary: "So we have been looking at adding circuit breaking to our services at my current client as part of making them more resilient. We used the fantastic hystrix-go package and since I could not really find any other examples other than the ones in the tests, I thought I might share one."
 ---
 

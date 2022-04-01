@@ -1,6 +1,6 @@
 ---
 title: Thoughts on DDD in Go
-icon: /images/avatar.png
+icon: /images/avatar-icon.webp
 date: 2014-10-10
 ---
 

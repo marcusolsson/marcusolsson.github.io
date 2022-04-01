@@ -1,7 +1,7 @@
 ---
 title: How I set and track goals using Obsidian
 date: 2021-12-29
-icon: /images/avatar.png
+icon: /images/avatar-icon.webp
 summary: "For as long as I can remember, I've been setting and documenting goals for myself. In this article, I'll walk you through how I plan and track my professional and personal goals in Obsidian."
 featured: true
 toc: true
