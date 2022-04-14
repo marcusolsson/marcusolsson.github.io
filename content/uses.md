@@ -77,6 +77,7 @@ Here's what each of the labels mean:
 - ❤️ [Sony Alpha a6400 Mirrorless Digital Camera](https://www.amazon.com/dp/B07VGB9BBH) — I use this as my webcam for webinars, daily check-ins, and other calls.
 - 🤷‍♂️ [Sigma 30mm f/1,4 DC DN](https://www.amazon.com/dp/B01C3SCKI6) — Bought this lens with the camera, but I'm not quite happy with the field of view. Looking at the 16mm version.
 - ❤️ [Elgato Cam Link 4K](https://www.elgato.com/en/cam-link-4k) — Lets me use my camera as a USB webcam.
+- 👍 Audio Pro Addon T14
 - 👍 [Elgato Master Mount](https://www.elgato.com/en/master-mount) — For mounting the camera behind the monitor.
 - 👍 [Sony ACPW20 AC Adaptor](https://www.amazon.com/Sony-ACPW20-AC-Adaptor-Black/dp/B003OBUJD0) — powers the camera so that I don't need to charge any batteries.
 - ❤️ [Elgato Key Light](https://www.elgato.com/en/key-light) — I have two of these, but I tend to only use one during daily calls. Basically only turn on both when I'm doing webinars or other recordings.
