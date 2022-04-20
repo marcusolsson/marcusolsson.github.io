@@ -10,6 +10,9 @@ A series of guides on the Grafana forum that aims to address common questions an
 
 <!--more-->
 
+- [Data frame design: Basics](https://community.grafana.com/t/data-frame-design-basics/63644)
+- [Guiding panel users with a wizard](https://community.grafana.com/t/guiding-panel-users-with-a-wizard/63819)
+- [How to use template variables in your data source](https://community.grafana.com/t/how-to-use-template-variables-in-your-data-source/63250)
 - [How I use Docker for plugin development](https://community.grafana.com/t/how-i-use-docker-for-plugin-development/58533)
 - [How to subscribe to Grafana application events](https://community.grafana.com/t/how-to-subscribe-to-grafana-application-events/59147)
 - [How to add a resource handler for your data source](https://community.grafana.com/t/how-to-add-a-resource-handler-for-your-data-source/58924)

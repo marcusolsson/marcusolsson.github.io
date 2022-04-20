@@ -1,4 +1,14 @@
 talks:
+  - title: Extend your Grafana experience through plugins
+    type: Talk
+    description: By default, Grafana comes with an impressive set of different visualizations and data source integrations. But that’s not all! Many more panels and data sources are available as plugins, built by the Grafana community. In this session, you’ll learn about the new in-app plugin catalog and a few nifty plugins to get you started using plugins!
+    presentations:
+      - venue: DevOpsDays Eindhoven, 2022
+        url: https://www.youtube.com/watch?v=_X0ohuBX92A
+        watch: https://www.youtube.com/watch?v=_X0ohuBX92A
+      - venue: Grafana Labs, 2022
+        url: https://grafana.com
+        watch: https://www.youtube.com/watch?v=Rf57NkxkZPQ&t=317s
   - title: Getting started with dashboard design
     type: Talk
     description: Have you finished experimenting with your first dashboard and are looking to build your first production dashboard? Or perhaps you’re looking to finally give your existing dashboards that well-deserved makeover? In this webinar, you’ll learn how to design dashboards that your users will want to come back to. You’ll learn to define the audience and the context of your dashboard to create dashboards with purpose.
