@@ -35,9 +35,10 @@ Here's what each of the labels mean:
 
 - ❤️ [You Need A Budget](https://youneedabudget.com) — Wish I found this when I got my first job. Now I know where my money goes.
 - ❤️ [Headspace](https://www.headspace.com/) — Probably the biggest contributor to my mental health.
-- 👍 [Tresorit](https://tresorit.com/) — End-to-end encrypted cloud storage with a decent mobile app. Only downside is the price.
+- 👍 [Tresorit](https://tresorit.com/) — End-to-end encrypted cloud storage with a decent mobile app. Only downside is the price. Replaced by my Synology NAS.
 - 👍 [Buy Me A Coffee](https://buymeacoffee.com) — For projects I'm working on outside my day-job. Honestly, it's more for managing my imposter syndrome than to generate income.
 - 👍 [LanguageTool](https://languagetool.org/) — Not quite as good as Grammarly, but I prefer their privacy policy.
+- 👍 [Synology C2 Storage](https://c2.synology.com/en-us/storage/personal/overview) — Cloud storage where I back up my Synology NAS.
 - 🤷‍♂️ [Fastmail](https://www.fastmail.com), [HEY](https://www.hey.com/), [ProtonMail](https://protonmail.com/), and [GMail](https://mail.google.com) — My email is a mess. I love the HEY model, but it's a bit pricey and has no calendar support. Right now I'm evaluating Fastmail.
 - 🤷‍♂️ [Pocket](https://getpocket.com) — Not a fan, but better than any of the alternatives.
 
@@ -71,6 +72,8 @@ Here's what each of the labels mean:
 - 👍 [Multibrackets M Deskmount Basic Single](https://products.multibrackets.com/en/desktop-display-mounts/vesa-desktop-mounts/m-deskmount-basic-single) — Holds my primary monitor.
 - 👍 [Jarvis Standing Desk Frame](https://www.fully.com/en-eu/standing-desks/jarvis/jarvis-frame-only.html) with a [BEKANT table top](https://www.ikea.com/us/en/p/bekant-tabletop-white-60253184/) — Reused a table top I already had, but I dream about replacing it with a slab of walnut wood one day.
 - 👍 [JobOut Standing Mat Classic](https://jobout.com/en/product/jobout-standing-mat-classic/) — I swap the chair out for this when I'm standing.
+- [Philips Hue Play light bar](https://www.philips-hue.com/en-us/p/hue-white-and-color-ambiance-play-light-bar-double-pack/7820230U7#overview) — Mounted at the back of my monitor.
+- ❤️ [Synology NAS DS220+](https://www.synology.com/sv-se/products/DS220+) — Self-hosted solution for documents and photos. Backs up to [Synology C2 Storage](https://c2.synology.com/en-us/storage/personal/overview). Replaces Tresorit for me.
 
 ## Audio and video
 
