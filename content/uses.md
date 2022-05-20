@@ -23,6 +23,7 @@ Here's what each of the labels mean:
 - 👍 [Firefox](https://www.mozilla.org/en-US/firefox), but I use [Brave](https://brave.com/) for anything that needs [Blink](https://en.wikipedia.org/wiki/Blink_(browser_engine)).
 - 👍 [Camtasia](https://www.techsmith.com/video-editor.html) for screen recording and video productions.
 - 👍 [Pixelmator Pro](https://www.pixelmator.com/pro/) — For everyday image editing. I mostly use Affinity Designer most of the time though.
+- 👍 [Alacritty](https://alacritty.org/) — My terminal of choice, though lately I've been playing around with [kitty](https://sw.kovidgoyal.net/kitty/).
 - 👍 [Little Snitch](https://www.obdev.at/products/littlesnitch)
 - 👍 [Spotify](https://www.spotify.com)
 - 🤷‍♂️ [Audacity](https://www.audacityteam.org/) for when I need to record my voice.
@@ -39,7 +40,7 @@ Here's what each of the labels mean:
 - 👍 [Buy Me A Coffee](https://buymeacoffee.com) — For projects I'm working on outside my day-job. Honestly, it's more for managing my imposter syndrome than to generate income.
 - 👍 [LanguageTool](https://languagetool.org/) — Not quite as good as Grammarly, but I prefer their privacy policy.
 - 👍 [Synology C2 Storage](https://c2.synology.com/en-us/storage/personal/overview) — Cloud storage where I back up my Synology NAS.
-- 🤷‍♂️ [Fastmail](https://www.fastmail.com), [HEY](https://www.hey.com/), [ProtonMail](https://protonmail.com/), and [GMail](https://mail.google.com) — My email is a mess. I love the HEY model, but it's a bit pricey and has no calendar support. Right now I'm evaluating Fastmail.
+- 👍️ [Fastmail](https://www.fastmail.com) — Switched from HEY, but I've somewhat managed to replicate the HEY model with labels and rule.
 - 🤷‍♂️ [Pocket](https://getpocket.com) — Not a fan, but better than any of the alternatives.
 
 ## Website
