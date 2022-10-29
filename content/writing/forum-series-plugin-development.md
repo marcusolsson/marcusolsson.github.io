@@ -3,7 +3,6 @@ title: Forum series on plugin development
 date: 2022-01-27
 publisher: Grafana
 icon: /images/grafana-icon.png
-featured: true
 ---
 
 A series of guides on the Grafana forum that aims to address common questions and struggles of community members.

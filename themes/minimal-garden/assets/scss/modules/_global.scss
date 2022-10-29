@@ -116,23 +116,23 @@ h2 {
 }
 
 h3 {
-  font-size: var(--text-md);
-  font-weight: 500;
+  font-size: var(--text-lg);
+  font-weight: 700;
 }
 
 h4 {
   font-size: var(--text-md);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h5 {
   font-size: var(--text-sm);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h6 {
   font-size: var(--text-sm);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 h2 a,
@@ -148,8 +148,24 @@ h3 a:hover {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+ol, ul {
+  margin-bottom: 2rem;
+
+  li {
+    margin-left: 2rem;
+  }
+}
+
+blockquote {
+  border-left: 5px solid var(--surface-alt-border);
+  padding-left: 1rem;
+  color: var(--color-text-secondary);
   margin-bottom: 2rem;
 }
 
